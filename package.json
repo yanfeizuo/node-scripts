@@ -1,0 +1,23 @@
+{
+  "name": "scripts",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "generatePara": "node parameter/index.js",
+    "fetchNFTImg": "node fetchNFTImage/index.js",
+    "genMetertestCompConfig": "node genMetertestCompConfig/index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@parallel-mono/utils": "^0.0.10",
+    "@paraspace-utilities/contract-helpers": "^0.0.118",
+    "@paraspace-utilities/math-utils": "^0.0.12",
+    "ethers": "^5.7.2",
+    "lodash": "^4.17.21",
+    "paraspace-configs": "^0.0.4"
+  }
+}

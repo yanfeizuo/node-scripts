@@ -1,0 +1,3279 @@
+{
+  "WETH": {
+    "goerli": {
+      "address": "0xB4FBF271143F4FBf7B91A5ded31805e42b2208d6",
+      "version": "1.4.9",
+      "package": {
+        "version": "1.4.9",
+        "git": {
+          "commit": "e2e2352"
+        },
+        "compiler": {
+          "version": "0.8.10",
+          "optimizer": {
+            "runs": 800
+          }
+        }
+      }
+    }
+  },
+  "USDC": {
+    "goerli": {
+      "address": "0x333EE834a68BF6345691F70c15b50b87Fd1E562B",
+      "version": "1.4.9",
+      "package": {
+        "version": "1.4.9",
+        "git": {
+          "commit": "e2e2352"
+        },
+        "compiler": {
+          "version": "0.8.10",
+          "optimizer": {
+            "runs": 800
+          }
+        }
+      }
+    }
+  },
+  "WBTC": {
+    "goerli": {
+      "address": "0xD03E8caE9398c76096b597C8D06D9689A3A2e83e",
+      "version": "1.4.9",
+      "package": {
+        "version": "1.4.9",
+        "git": {
+          "commit": "e2e2352"
+        },
+        "compiler": {
+          "version": "0.8.10",
+          "optimizer": {
+            "runs": 800
+          }
+        }
+      }
+    }
+  },
+  "stETH": {
+    "goerli": {
+      "address": "0x6BAeD00EeeC28427D87CbB83BbDc06D89f8e51E5",
+      "version": "1.4.9",
+      "package": {
+        "version": "1.4.9",
+        "git": {
+          "commit": "e2e2352"
+        },
+        "compiler": {
+          "version": "0.8.10",
+          "optimizer": {
+            "runs": 800
+          }
+        }
+      }
+    }
+  },
+  "wstETH": {
+    "goerli": {
+      "address": "0x0d7f5BDcAEc35685f908590157EFDD51aA16956d",
+      "version": "1.4.9",
+      "package": {
+        "version": "1.4.9",
+        "git": {
+          "commit": "e2e2352"
+        },
+        "compiler": {
+          "version": "0.8.10",
+          "optimizer": {
+            "runs": 800
+          }
+        }
+      }
+    }
+  },
+  "APE": {
+    "goerli": {
+      "address": "0x328507DC29C95c170B56a1b3A758eB7a9E73455c",
+      "version": "1.4.9",
+      "package": {
+        "version": "1.4.9",
+        "git": {
+          "commit": "e2e2352"
+        },
+        "compiler": {
+          "version": "0.8.10",
+          "optimizer": {
+            "runs": 800
+          }
+        }
+      }
+    }
+  },
+  "BAYC": {
+    "goerli": {
+      "address": "0xF40299b626ef6E197F5d9DE9315076CAB788B6Ef",
+      "version": "1.4.9",
+      "package": {
+        "version": "1.4.9",
+        "git": {
+          "commit": "e2e2352"
+        },
+        "compiler": {
+          "version": "0.8.10",
+          "optimizer": {
+            "runs": 800
+          }
+        }
+      }
+    }
+  },
+  "MAYC": {
+    "goerli": {
+      "address": "0x3f228cBceC3aD130c45D21664f2C7f5b23130d23",
+      "version": "1.4.9",
+      "package": {
+        "version": "1.4.9",
+        "git": {
+          "commit": "e2e2352"
+        },
+        "compiler": {
+          "version": "0.8.10",
+          "optimizer": {
+            "runs": 800
+          }
+        }
+      }
+    }
+  },
+  "UniswapV3": {
+    "goerli": {
+      "address": "0xC36442b4a4522E871399CD717aBDD847Ab11FE88",
+      "version": "1.4.9",
+      "package": {
+        "version": "1.4.9",
+        "git": {
+          "commit": "e2e2352"
+        },
+        "compiler": {
+          "version": "0.8.10",
+          "optimizer": {
+            "runs": 800
+          }
+        }
+      }
+    }
+  },
+  "UniswapV3Factory": {
+    "goerli": {
+      "address": "0x1F98431c8aD98523631AE4a59f267346ea31F984",
+      "version": "1.4.9",
+      "package": {
+        "version": "1.4.9",
+        "git": {
+          "commit": "e2e2352"
+        },
+        "compiler": {
+          "version": "0.8.10",
+          "optimizer": {
+            "runs": 800
+          }
+        }
+      }
+    }
+  },
+  "UniswapV3SwapRouter": {
+    "goerli": {
+      "address": "0xE592427A0AEce92De3Edee1F18E0157C05861564",
+      "version": "1.4.9",
+      "package": {
+        "version": "1.4.9",
+        "git": {
+          "commit": "e2e2352"
+        },
+        "compiler": {
+          "version": "0.8.10",
+          "optimizer": {
+            "runs": 800
+          }
+        }
+      }
+    }
+  },
+  "sAPE": {
+    "goerli": {
+      "address": "0x0000000000000000000000000000000000000001",
+      "version": "1.4.9",
+      "package": {
+        "version": "1.4.9",
+        "git": {
+          "commit": "e2e2352"
+        },
+        "compiler": {
+          "version": "0.8.10",
+          "optimizer": {
+            "runs": 800
+          }
+        }
+      }
+    }
+  },
+  "ApeCoinStaking": {
+    "goerli": {
+      "address": "0xeF37717B1807a253c6D140Aca0141404D23c26D4",
+      "version": "1.4.9",
+      "package": {
+        "version": "1.4.9",
+        "git": {
+          "commit": "e2e2352"
+        },
+        "compiler": {
+          "version": "0.8.10",
+          "optimizer": {
+            "runs": 800
+          }
+        }
+      }
+    }
+  },
+  "BAKC": {
+    "goerli": {
+      "address": "0x44C9ACA7CF2D3D7b82D8D56CffA916Fd3C20ADA8",
+      "deployer": "0xbF85ef4216340eB5cD3c57B550aae7A2712D48d2",
+      "constructorArgs": [
+        "BAKC",
+        "BAKC",
+        ""
+      ],
+      "verified": false,
+      "package": {
+        "version": "1.4.9",
+        "git": {
+          "commit": "e2e2352"
+        },
+        "compiler": {
+          "version": "0.8.10",
+          "optimizer": {
+            "runs": 800
+          }
+        }
+      }
+    }
+  },
+  "cAPE": {
+    "goerli": {
+      "address": "0x2D369Ddb82Eeeb68dda1dfd7aDfD6EFD50E23796",
+      "deployer": "0xbF85ef4216340eB5cD3c57B550aae7A2712D48d2",
+      "constructorArgs": [],
+      "verified": true,
+      "package": {
+        "version": "1.4.9",
+        "git": {
+          "commit": "e2e2352"
+        },
+        "compiler": {
+          "version": "0.8.10",
+          "optimizer": {
+            "runs": 800
+          }
+        }
+      }
+    }
+  },
+  "yAPE": {
+    "goerli": {
+      "address": "0xFDA14Ba45634d891078d3A1cb09be3b738349Df4",
+      "deployer": "0xbF85ef4216340eB5cD3c57B550aae7A2712D48d2",
+      "constructorArgs": [],
+      "verified": true,
+      "package": {
+        "version": "1.4.9",
+        "git": {
+          "commit": "e2e2352"
+        },
+        "compiler": {
+          "version": "0.8.10",
+          "optimizer": {
+            "runs": 800
+          }
+        }
+      }
+    }
+  },
+  "PoolAddressesProviderRegistry": {
+    "goerli": {
+      "address": "0x4435eEF2EBa46344B9C6Ab35d612e83B81fE5d23",
+      "deployer": "0xbF85ef4216340eB5cD3c57B550aae7A2712D48d2",
+      "constructorArgs": [
+        "0xbF85ef4216340eB5cD3c57B550aae7A2712D48d2"
+      ],
+      "verified": false,
+      "package": {
+        "version": "1.4.9",
+        "git": {
+          "commit": "e2e2352"
+        },
+        "compiler": {
+          "version": "0.8.10",
+          "optimizer": {
+            "runs": 800
+          }
+        }
+      }
+    }
+  },
+  "PoolAddressesProvider": {
+    "goerli": {
+      "address": "0xbf0F233AC6B1ed4Cf51c1E6Ebf5d133b3435EaC6",
+      "deployer": "0xbF85ef4216340eB5cD3c57B550aae7A2712D48d2",
+      "constructorArgs": [
+        "MeterSpace",
+        "0xbF85ef4216340eB5cD3c57B550aae7A2712D48d2"
+      ],
+      "verified": false,
+      "package": {
+        "version": "1.4.9",
+        "git": {
+          "commit": "e2e2352"
+        },
+        "compiler": {
+          "version": "0.8.10",
+          "optimizer": {
+            "runs": 800
+          }
+        }
+      }
+    }
+  },
+  "ACLManager": {
+    "goerli": {
+      "address": "0x9C9a852566f308f8F1Cd6d0bAe37017717BcBEac",
+      "deployer": "0xbF85ef4216340eB5cD3c57B550aae7A2712D48d2",
+      "constructorArgs": [
+        "0xbf0F233AC6B1ed4Cf51c1E6Ebf5d133b3435EaC6"
+      ],
+      "verified": false,
+      "package": {
+        "version": "1.4.9",
+        "git": {
+          "commit": "e2e2352"
+        },
+        "compiler": {
+          "version": "0.8.10",
+          "optimizer": {
+            "runs": 800
+          }
+        }
+      }
+    }
+  },
+  "SupplyLogic": {
+    "goerli": {
+      "address": "0xf6c7c54FD5eDDAA2D1FD51FEd482d11a0Ad165D7",
+      "deployer": "0xbF85ef4216340eB5cD3c57B550aae7A2712D48d2",
+      "constructorArgs": [],
+      "verified": false,
+      "package": {
+        "version": "1.4.9",
+        "git": {
+          "commit": "e2e2352"
+        },
+        "compiler": {
+          "version": "0.8.10",
+          "optimizer": {
+            "runs": 800
+          }
+        }
+      }
+    }
+  },
+  "BorrowLogic": {
+    "goerli": {
+      "address": "0xa603c91d08c09b5BE9E7e92cF73fC818464d0345",
+      "deployer": "0xbF85ef4216340eB5cD3c57B550aae7A2712D48d2",
+      "constructorArgs": [],
+      "verified": false,
+      "package": {
+        "version": "1.4.9",
+        "git": {
+          "commit": "e2e2352"
+        },
+        "compiler": {
+          "version": "0.8.10",
+          "optimizer": {
+            "runs": 800
+          }
+        }
+      }
+    }
+  },
+  "AuctionLogic": {
+    "goerli": {
+      "address": "0xa3CBA67B3e29Db600cfF3fdC641261ac18F27Ffa",
+      "deployer": "0xbF85ef4216340eB5cD3c57B550aae7A2712D48d2",
+      "constructorArgs": [],
+      "verified": false,
+      "package": {
+        "version": "1.4.9",
+        "git": {
+          "commit": "e2e2352"
+        },
+        "compiler": {
+          "version": "0.8.10",
+          "optimizer": {
+            "runs": 800
+          }
+        }
+      }
+    }
+  },
+  "LiquidationLogic": {
+    "goerli": {
+      "address": "0x1Cc6753372C912CbDbD05d98F9E54d4A5a1F94f4",
+      "deployer": "0xbF85ef4216340eB5cD3c57B550aae7A2712D48d2",
+      "constructorArgs": [],
+      "verified": false,
+      "package": {
+        "version": "1.4.9",
+        "git": {
+          "commit": "e2e2352"
+        },
+        "compiler": {
+          "version": "0.8.10",
+          "optimizer": {
+            "runs": 800
+          }
+        }
+      },
+      "libraries": {
+        "SupplyLogic": "0xB4cC18F5Ce1BFca46091F339dd8E774cBb317085"
+      }
+    }
+  },
+  "FlashClaimLogic": {
+    "goerli": {
+      "address": "0x4a813840edA8b1e83F4D2980d08d105eeB979637",
+      "deployer": "0xbF85ef4216340eB5cD3c57B550aae7A2712D48d2",
+      "constructorArgs": [],
+      "verified": false,
+      "package": {
+        "version": "1.4.9",
+        "git": {
+          "commit": "e2e2352"
+        },
+        "compiler": {
+          "version": "0.8.10",
+          "optimizer": {
+            "runs": 800
+          }
+        }
+      }
+    }
+  },
+  "MarketplaceLogic": {
+    "goerli": {
+      "address": "0xb34440D2703bAc92c5B0D984e40202387Cd7e023",
+      "deployer": "0xbF85ef4216340eB5cD3c57B550aae7A2712D48d2",
+      "constructorArgs": [],
+      "verified": false,
+      "package": {
+        "version": "1.4.9",
+        "git": {
+          "commit": "e2e2352"
+        },
+        "compiler": {
+          "version": "0.8.10",
+          "optimizer": {
+            "runs": 800
+          }
+        }
+      },
+      "libraries": {
+        "SupplyLogic": "0xB4cC18F5Ce1BFca46091F339dd8E774cBb317085",
+        "BorrowLogic": "0x938E4399cffF6991d2e9ffd2E6372fBeFD662FE6"
+      }
+    }
+  },
+  "PoolLogic": {
+    "goerli": {
+      "address": "0xB0AA39354330DDA0B777DCeE5f0bA51e1c260253",
+      "deployer": "0xbF85ef4216340eB5cD3c57B550aae7A2712D48d2",
+      "constructorArgs": [],
+      "verified": false,
+      "package": {
+        "version": "1.4.9",
+        "git": {
+          "commit": "e2e2352"
+        },
+        "compiler": {
+          "version": "0.8.10",
+          "optimizer": {
+            "runs": 800
+          }
+        }
+      }
+    }
+  },
+  "TimeLockProxy": {
+    "goerli": {
+      "address": "0xa237fa9AD2862a47479837b5d0f5C281C059FEDD",
+      "deployer": "0xbF85ef4216340eB5cD3c57B550aae7A2712D48d2",
+      "constructorArgs": [],
+      "verified": false,
+      "package": {
+        "version": "1.4.9",
+        "git": {
+          "commit": "e2e2352"
+        },
+        "compiler": {
+          "version": "0.8.10",
+          "optimizer": {
+            "runs": 800
+          }
+        }
+      }
+    }
+  },
+  "PoolCoreImpl": {
+    "goerli": {
+      "address": "0x66cAf7e6e173EE94B582026617fff4dc2aea6f29",
+      "deployer": "0xbF85ef4216340eB5cD3c57B550aae7A2712D48d2",
+      "constructorArgs": [
+        "0xbf0F233AC6B1ed4Cf51c1E6Ebf5d133b3435EaC6",
+        "0xa237fa9AD2862a47479837b5d0f5C281C059FEDD"
+      ],
+      "verified": false,
+      "package": {
+        "version": "1.4.9",
+        "git": {
+          "commit": "e2e2352"
+        },
+        "compiler": {
+          "version": "0.8.10",
+          "optimizer": {
+            "runs": 800
+          }
+        }
+      },
+      "libraries": {
+        "AuctionLogic": "0xa3CBA67B3e29Db600cfF3fdC641261ac18F27Ffa",
+        "LiquidationLogic": "0x1Cc6753372C912CbDbD05d98F9E54d4A5a1F94f4",
+        "SupplyLogic": "0xB4cC18F5Ce1BFca46091F339dd8E774cBb317085",
+        "BorrowLogic": "0x938E4399cffF6991d2e9ffd2E6372fBeFD662FE6",
+        "FlashClaimLogic": "0x4a813840edA8b1e83F4D2980d08d105eeB979637"
+      },
+      "signatures": [
+        {
+          "name": "ADDRESSES_PROVIDER()",
+          "signature": "0x0542975c"
+        },
+        {
+          "name": "AUCTION_RECOVERY_HEALTH_FACTOR()",
+          "signature": "0x76d61799"
+        },
+        {
+          "name": "MAX_NUMBER_RESERVES()",
+          "signature": "0xf8119d51"
+        },
+        {
+          "name": "POOL_REVISION()",
+          "signature": "0x0148170e"
+        },
+        {
+          "name": "TIME_LOCK()",
+          "signature": "0xe0a09c68"
+        },
+        {
+          "name": "borrow(address,uint256,uint16,address)",
+          "signature": "0x1d5d7237"
+        },
+        {
+          "name": "decreaseUniswapV3Liquidity(address,uint256,uint128,uint256,uint256,bool)",
+          "signature": "0x00b708c6"
+        },
+        {
+          "name": "endAuction(address,address,uint256)",
+          "signature": "0x459ac032"
+        },
+        {
+          "name": "finalizeTransfer(address,address,address,bool,uint256,uint256,uint256)",
+          "signature": "0xd59544cb"
+        },
+        {
+          "name": "finalizeTransferERC721(address,uint256,address,address,bool,uint256)",
+          "signature": "0x16667cd7"
+        },
+        {
+          "name": "flashClaim(address,address[],uint256[][],bytes)",
+          "signature": "0x921ef82f"
+        },
+        {
+          "name": "getAuctionData(address,uint256)",
+          "signature": "0xbb5ce40d"
+        },
+        {
+          "name": "getConfiguration(address)",
+          "signature": "0xc44b11f7"
+        },
+        {
+          "name": "getReserveAddressById(uint16)",
+          "signature": "0x52751797"
+        },
+        {
+          "name": "getReserveData(address)",
+          "signature": "0x35ea6a75"
+        },
+        {
+          "name": "getReserveNormalizedIncome(address)",
+          "signature": "0xd15e0053"
+        },
+        {
+          "name": "getReserveNormalizedVariableDebt(address)",
+          "signature": "0x386497fd"
+        },
+        {
+          "name": "getReserveXToken(address)",
+          "signature": "0x8d1a6a1f"
+        },
+        {
+          "name": "getReservesList()",
+          "signature": "0xd1946dbc"
+        },
+        {
+          "name": "getUserConfiguration(address)",
+          "signature": "0x4417a583"
+        },
+        {
+          "name": "initialize(address)",
+          "signature": "0xc4d66de8"
+        },
+        {
+          "name": "liquidateERC20(address,address,address,uint256,bool)",
+          "signature": "0x3d7b66bf"
+        },
+        {
+          "name": "liquidateERC721(address,address,uint256,uint256,bool)",
+          "signature": "0xd134142e"
+        },
+        {
+          "name": "onERC721Received(address,address,uint256,bytes)",
+          "signature": "0x150b7a02"
+        },
+        {
+          "name": "repay(address,uint256,address)",
+          "signature": "0x5ceae9c4"
+        },
+        {
+          "name": "repayWithPTokens(address,uint256)",
+          "signature": "0x851def34"
+        },
+        {
+          "name": "repayWithPermit(address,uint256,address,uint256,uint8,bytes32,bytes32)",
+          "signature": "0x01db53c0"
+        },
+        {
+          "name": "setUserUseERC20AsCollateral(address,bool)",
+          "signature": "0xc5fa1ed2"
+        },
+        {
+          "name": "setUserUseERC721AsCollateral(address,uint256[],bool)",
+          "signature": "0x58b666b1"
+        },
+        {
+          "name": "startAuction(address,address,uint256)",
+          "signature": "0x685b8517"
+        },
+        {
+          "name": "supply(address,uint256,address,uint16)",
+          "signature": "0x617ba037"
+        },
+        {
+          "name": "supplyERC721(address,(uint256,bool)[],address,uint16)",
+          "signature": "0xaeaa4ae6"
+        },
+        {
+          "name": "supplyERC721FromNToken(address,(uint256,bool)[],address)",
+          "signature": "0x14c43a21"
+        },
+        {
+          "name": "supplyWithPermit(address,uint256,address,uint16,uint256,uint8,bytes32,bytes32)",
+          "signature": "0x02c205f0"
+        },
+        {
+          "name": "withdraw(address,uint256,address)",
+          "signature": "0x69328dec"
+        },
+        {
+          "name": "withdrawERC721(address,uint256[],address)",
+          "signature": "0x3786ddfc"
+        }
+      ]
+    }
+  },
+  "PoolParametersImpl": {
+    "goerli": {
+      "address": "0x58730C35D38066d04DFE3eDC24096b3f7E07C54e",
+      "deployer": "0xbF85ef4216340eB5cD3c57B550aae7A2712D48d2",
+      "constructorArgs": [
+        "0xbf0F233AC6B1ed4Cf51c1E6Ebf5d133b3435EaC6"
+      ],
+      "verified": false,
+      "package": {
+        "version": "1.4.9",
+        "git": {
+          "commit": "e2e2352"
+        },
+        "compiler": {
+          "version": "0.8.10",
+          "optimizer": {
+            "runs": 800
+          }
+        }
+      },
+      "libraries": {
+        "PoolLogic": "0xB0AA39354330DDA0B777DCeE5f0bA51e1c260253"
+      },
+      "signatures": [
+        {
+          "name": "dropReserve(address)",
+          "signature": "0x63c9b860"
+        },
+        {
+          "name": "getAssetLtvAndLT(address,uint256)",
+          "signature": "0xf5cca442"
+        },
+        {
+          "name": "getUserAccountData(address)",
+          "signature": "0xbf92857c"
+        },
+        {
+          "name": "getUserApeCompoundStrategy(address)",
+          "signature": "0xce40b012"
+        },
+        {
+          "name": "initReserve(address,address,address,address,address,address)",
+          "signature": "0xac6abd4e"
+        },
+        {
+          "name": "mintToTreasury(address[])",
+          "signature": "0x9cd19996"
+        },
+        {
+          "name": "rescueTokens(uint8,address,address,uint256)",
+          "signature": "0x7b2fa0ae"
+        },
+        {
+          "name": "revokeUnlimitedApprove(address,address)",
+          "signature": "0x13fb3771"
+        },
+        {
+          "name": "setApeCompoundStrategy((uint8,uint8,uint256))",
+          "signature": "0x562f59ec"
+        },
+        {
+          "name": "setAuctionRecoveryHealthFactor(uint64)",
+          "signature": "0xffaf1eef"
+        },
+        {
+          "name": "setAuctionValidityTime(address)",
+          "signature": "0xb6f468b8"
+        },
+        {
+          "name": "setClaimApeForCompoundFee(uint256)",
+          "signature": "0x6a5c2690"
+        },
+        {
+          "name": "setConfiguration(address,(uint256))",
+          "signature": "0xf51e435b"
+        },
+        {
+          "name": "setReserveAuctionStrategyAddress(address,address)",
+          "signature": "0xe81a19f2"
+        },
+        {
+          "name": "setReserveInterestRateStrategyAddress(address,address)",
+          "signature": "0x1d2118f9"
+        },
+        {
+          "name": "setReserveTimeLockStrategyAddress(address,address)",
+          "signature": "0x623396af"
+        },
+        {
+          "name": "unlimitedApproveTo(address,address)",
+          "signature": "0x5a41954f"
+        }
+      ]
+    }
+  },
+  "PoolMarketplaceImpl": {
+    "goerli": {
+      "address": "0x1A309F530e9767f37C7cF55Ac2BA2CE165C15Cf2",
+      "deployer": "0xbF85ef4216340eB5cD3c57B550aae7A2712D48d2",
+      "constructorArgs": [
+        "0xbf0F233AC6B1ed4Cf51c1E6Ebf5d133b3435EaC6"
+      ],
+      "verified": false,
+      "package": {
+        "version": "1.4.9",
+        "git": {
+          "commit": "e2e2352"
+        },
+        "compiler": {
+          "version": "0.8.10",
+          "optimizer": {
+            "runs": 800
+          }
+        }
+      },
+      "libraries": {
+        "MarketplaceLogic": "0xb34440D2703bAc92c5B0D984e40202387Cd7e023"
+      },
+      "signatures": [
+        {
+          "name": "acceptBidWithCredit(bytes32,bytes,(address,uint256,bytes,uint8,bytes32,bytes32),address,uint16)",
+          "signature": "0x5bfc0116"
+        },
+        {
+          "name": "batchAcceptBidWithCredit(bytes32[],bytes[],(address,uint256,bytes,uint8,bytes32,bytes32)[],address,uint16)",
+          "signature": "0x7da8093e"
+        },
+        {
+          "name": "batchBuyWithCredit(bytes32[],bytes[],(address,uint256,bytes,uint8,bytes32,bytes32)[],uint16)",
+          "signature": "0xcfa101a6"
+        },
+        {
+          "name": "buyWithCredit(bytes32,bytes,(address,uint256,bytes,uint8,bytes32,bytes32),uint16)",
+          "signature": "0xec29874a"
+        }
+      ]
+    }
+  },
+  "PoolApeStakingImpl": {
+    "goerli": {
+      "address": "0xe3f7F2db3e8e5877e80CE60372cd636D0b04bC78",
+      "deployer": "0xbF85ef4216340eB5cD3c57B550aae7A2712D48d2",
+      "constructorArgs": [
+        "0xbf0F233AC6B1ed4Cf51c1E6Ebf5d133b3435EaC6",
+        "0x2D369Ddb82Eeeb68dda1dfd7aDfD6EFD50E23796",
+        "0x328507DC29C95c170B56a1b3A758eB7a9E73455c",
+        "0x333EE834a68BF6345691F70c15b50b87Fd1E562B",
+        "0xE592427A0AEce92De3Edee1F18E0157C05861564",
+        "0xB4FBF271143F4FBf7B91A5ded31805e42b2208d6",
+        3000,
+        500,
+        "0xbF85ef4216340eB5cD3c57B550aae7A2712D48d2"
+      ],
+      "verified": false,
+      "package": {
+        "version": "1.4.9",
+        "git": {
+          "commit": "e2e2352"
+        },
+        "compiler": {
+          "version": "0.8.10",
+          "optimizer": {
+            "runs": 800
+          }
+        }
+      },
+      "libraries": {
+        "BorrowLogic": "0x938E4399cffF6991d2e9ffd2E6372fBeFD662FE6",
+        "SupplyLogic": "0xB4cC18F5Ce1BFca46091F339dd8E774cBb317085"
+      },
+      "signatures": [
+        {
+          "name": "borrowApeAndStake((address,address,uint256,uint256),(uint32,uint224)[],(uint32,uint32,uint184)[])",
+          "signature": "0xa5a0132e"
+        },
+        {
+          "name": "claimApeAndCompound(address,address[],uint256[][])",
+          "signature": "0x3a0eb9c7"
+        },
+        {
+          "name": "claimApeCoin(address,uint256[])",
+          "signature": "0x021f66dc"
+        },
+        {
+          "name": "claimBAKC(address,(uint128,uint128)[])",
+          "signature": "0x3d9e8e9f"
+        },
+        {
+          "name": "claimPairedApeAndCompound(address,address[],(uint128,uint128)[][])",
+          "signature": "0xeef068a7"
+        },
+        {
+          "name": "getApeCompoundFeeRate()",
+          "signature": "0x8ab7fa8b"
+        },
+        {
+          "name": "repayAndSupply(address,address,uint256)",
+          "signature": "0xcf395ef1"
+        },
+        {
+          "name": "unstakeApePositionAndRepay(address,uint256)",
+          "signature": "0xfd4e8d2c"
+        },
+        {
+          "name": "withdrawApeCoin(address,(uint32,uint224)[])",
+          "signature": "0xe0ca0c7d"
+        },
+        {
+          "name": "withdrawBAKC(address,(uint32,uint32,uint184,bool)[])",
+          "signature": "0xe90f8341"
+        }
+      ]
+    }
+  },
+  "ParaProxyInterfacesImpl": {
+    "goerli": {
+      "address": "0xF428844D367F3f971eF065F2849c6F4EDFf2B657",
+      "deployer": "0xbF85ef4216340eB5cD3c57B550aae7A2712D48d2",
+      "constructorArgs": [],
+      "verified": false,
+      "package": {
+        "version": "1.4.9",
+        "git": {
+          "commit": "e2e2352"
+        },
+        "compiler": {
+          "version": "0.8.10",
+          "optimizer": {
+            "runs": 800
+          }
+        }
+      },
+      "signatures": [
+        {
+          "name": "facetAddress(bytes4)",
+          "signature": "0xcdffacc6"
+        },
+        {
+          "name": "facetAddresses()",
+          "signature": "0x52ef6b2c"
+        },
+        {
+          "name": "facetFunctionSelectors(address)",
+          "signature": "0xadfca15e"
+        },
+        {
+          "name": "facets()",
+          "signature": "0x7a0ed627"
+        },
+        {
+          "name": "supportsInterface(bytes4)",
+          "signature": "0x01ffc9a7"
+        }
+      ]
+    }
+  },
+  "PositionMoverLogic": {
+    "goerli": {
+      "address": "0xa3c59761c269193dEAA8e29D2b4F02C58199Cc49",
+      "deployer": "0xbF85ef4216340eB5cD3c57B550aae7A2712D48d2",
+      "constructorArgs": [],
+      "verified": false,
+      "package": {
+        "version": "1.4.9",
+        "git": {
+          "commit": "e2e2352"
+        },
+        "compiler": {
+          "version": "0.8.10",
+          "optimizer": {
+            "runs": 800
+          }
+        }
+      }
+    }
+  },
+  "PoolPositionMoverImpl": {
+    "goerli": {
+      "address": "0x610Aa4ABaC32853E89607e68f8C39c77001895E8",
+      "deployer": "0xbF85ef4216340eB5cD3c57B550aae7A2712D48d2",
+      "constructorArgs": [
+        "0xbf0F233AC6B1ed4Cf51c1E6Ebf5d133b3435EaC6",
+        "0x7F64c32a3c13Bd245a7141a607A7E60DA585BA86",
+        "0x84a47EaEca69f8B521C21739224251c8c4566Bbc"
+      ],
+      "verified": false,
+      "package": {
+        "version": "1.4.9",
+        "git": {
+          "commit": "e2e2352"
+        },
+        "compiler": {
+          "version": "0.8.10",
+          "optimizer": {
+            "runs": 800
+          }
+        }
+      },
+      "signatures": [
+        {
+          "name": "movePositionFromBendDAO(uint256[])",
+          "signature": "0x329543b9"
+        }
+      ]
+    }
+  },
+  "PoolProxy": {
+    "goerli": {
+      "address": "0x1521D0E668099aF29A6d6aDBB0479f3dCdaEf46e",
+      "constructorArgs": [
+        "0xbf0F233AC6B1ed4Cf51c1E6Ebf5d133b3435EaC6"
+      ],
+      "verified": false,
+      "package": {
+        "version": "1.4.9",
+        "git": {
+          "commit": "e2e2352"
+        },
+        "compiler": {
+          "version": "0.8.10",
+          "optimizer": {
+            "runs": 800
+          }
+        }
+      }
+    }
+  },
+  "ConfiguratorLogic": {
+    "goerli": {
+      "address": "0xe40A0a436e785a68c2B2C4394D1E15e16FC01c8b",
+      "deployer": "0xbF85ef4216340eB5cD3c57B550aae7A2712D48d2",
+      "constructorArgs": [],
+      "verified": false,
+      "package": {
+        "version": "1.4.9",
+        "git": {
+          "commit": "e2e2352"
+        },
+        "compiler": {
+          "version": "0.8.10",
+          "optimizer": {
+            "runs": 800
+          }
+        }
+      }
+    }
+  },
+  "PoolConfiguratorImpl": {
+    "goerli": {
+      "address": "0xC7BfadA200361afCE50CAFeB8368C0E715390898",
+      "deployer": "0xbF85ef4216340eB5cD3c57B550aae7A2712D48d2",
+      "constructorArgs": [],
+      "verified": false,
+      "package": {
+        "version": "1.4.9",
+        "git": {
+          "commit": "e2e2352"
+        },
+        "compiler": {
+          "version": "0.8.10",
+          "optimizer": {
+            "runs": 800
+          }
+        }
+      },
+      "libraries": {
+        "ConfiguratorLogic": "0xe40A0a436e785a68c2B2C4394D1E15e16FC01c8b"
+      }
+    }
+  },
+  "PoolConfiguratorProxy": {
+    "goerli": {
+      "address": "0x7cFA48FD65332cdb0bDD370a97abFA27F669c80c",
+      "constructorArgs": [
+        "0xbf0F233AC6B1ed4Cf51c1E6Ebf5d133b3435EaC6"
+      ],
+      "verified": false,
+      "package": {
+        "version": "1.4.9",
+        "git": {
+          "commit": "e2e2352"
+        },
+        "compiler": {
+          "version": "0.8.10",
+          "optimizer": {
+            "runs": 800
+          }
+        }
+      }
+    }
+  },
+  "ReservesSetupHelper": {
+    "goerli": {
+      "address": "0x24b91DEB476D75C21482Aa94d6aE0868bd627013",
+      "deployer": "0xbF85ef4216340eB5cD3c57B550aae7A2712D48d2",
+      "constructorArgs": [],
+      "verified": false,
+      "package": {
+        "version": "1.4.9",
+        "git": {
+          "commit": "e2e2352"
+        },
+        "compiler": {
+          "version": "0.8.10",
+          "optimizer": {
+            "runs": 800
+          }
+        }
+      }
+    }
+  },
+  "PriceOracle": {
+    "goerli": {
+      "address": "0xe8131a7f635634549f6A14c54ba9948A0B3b8e29",
+      "deployer": "0xbF85ef4216340eB5cD3c57B550aae7A2712D48d2",
+      "constructorArgs": [],
+      "verified": false,
+      "package": {
+        "version": "1.4.9",
+        "git": {
+          "commit": "e2e2352"
+        },
+        "compiler": {
+          "version": "0.8.10",
+          "optimizer": {
+            "runs": 800
+          }
+        }
+      }
+    }
+  },
+  "NFTFloorOracle": {
+    "goerli": {
+      "address": "0x962C658b5283C4A820E665387E98E4B0811D793d",
+      "deployer": "0xbF85ef4216340eB5cD3c57B550aae7A2712D48d2",
+      "constructorArgs": [],
+      "verified": false,
+      "package": {
+        "version": "1.4.9",
+        "git": {
+          "commit": "e2e2352"
+        },
+        "compiler": {
+          "version": "0.8.10",
+          "optimizer": {
+            "runs": 800
+          }
+        }
+      }
+    }
+  },
+  "AggregatorUSDC": {
+    "goerli": {
+      "address": "0xf8f0A3a17a222db0383bB185B0D283f28a0B82F4",
+      "deployer": "0xbF85ef4216340eB5cD3c57B550aae7A2712D48d2",
+      "constructorArgs": [
+        "915952223931999"
+      ],
+      "verified": false,
+      "package": {
+        "version": "1.4.9",
+        "git": {
+          "commit": "e2e2352"
+        },
+        "compiler": {
+          "version": "0.8.10",
+          "optimizer": {
+            "runs": 800
+          }
+        }
+      }
+    }
+  },
+  "AggregatorWBTC": {
+    "goerli": {
+      "address": "0x2969e8c808AA5F3665089288E340A79c595d26C8",
+      "deployer": "0xbF85ef4216340eB5cD3c57B550aae7A2712D48d2",
+      "constructorArgs": [
+        "18356369399062118000"
+      ],
+      "verified": false,
+      "package": {
+        "version": "1.4.9",
+        "git": {
+          "commit": "e2e2352"
+        },
+        "compiler": {
+          "version": "0.8.10",
+          "optimizer": {
+            "runs": 800
+          }
+        }
+      }
+    }
+  },
+  "AggregatorStETH": {
+    "goerli": {
+      "address": "0xE6973655549Da3C00Be74718c384b80eB16CF5A3",
+      "deployer": "0xbF85ef4216340eB5cD3c57B550aae7A2712D48d2",
+      "constructorArgs": [
+        "1000000000000000000"
+      ],
+      "verified": false,
+      "package": {
+        "version": "1.4.9",
+        "git": {
+          "commit": "e2e2352"
+        },
+        "compiler": {
+          "version": "0.8.10",
+          "optimizer": {
+            "runs": 800
+          }
+        }
+      }
+    }
+  },
+  "AggregatorWstETH": {
+    "goerli": {
+      "address": "0x5aDb518a80dAA9E25C61cdfa09deB0Be3d248C52",
+      "deployer": "0xbF85ef4216340eB5cD3c57B550aae7A2712D48d2",
+      "constructorArgs": [
+        "0xE6973655549Da3C00Be74718c384b80eB16CF5A3",
+        "0x6BAeD00EeeC28427D87CbB83BbDc06D89f8e51E5",
+        18
+      ],
+      "verified": false,
+      "package": {
+        "version": "1.4.9",
+        "git": {
+          "commit": "e2e2352"
+        },
+        "compiler": {
+          "version": "0.8.10",
+          "optimizer": {
+            "runs": 800
+          }
+        }
+      }
+    }
+  },
+  "AggregatorAPE": {
+    "goerli": {
+      "address": "0xe44B478a37ec336Ee8D8283A59eBD9a5C982896D",
+      "deployer": "0xbF85ef4216340eB5cD3c57B550aae7A2712D48d2",
+      "constructorArgs": [
+        "3690684128600000"
+      ],
+      "verified": false,
+      "package": {
+        "version": "1.4.9",
+        "git": {
+          "commit": "e2e2352"
+        },
+        "compiler": {
+          "version": "0.8.10",
+          "optimizer": {
+            "runs": 800
+          }
+        }
+      }
+    }
+  },
+  "AggregatorSAPE": {
+    "goerli": {
+      "address": "0xdd9D427B21106771DCD2d7e2Bc53eCFc126c5a99",
+      "deployer": "0xbF85ef4216340eB5cD3c57B550aae7A2712D48d2",
+      "constructorArgs": [
+        "3690684128600000"
+      ],
+      "verified": false,
+      "package": {
+        "version": "1.4.9",
+        "git": {
+          "commit": "e2e2352"
+        },
+        "compiler": {
+          "version": "0.8.10",
+          "optimizer": {
+            "runs": 800
+          }
+        }
+      }
+    }
+  },
+  "AggregatorCAPE": {
+    "goerli": {
+      "address": "0xe08fE00C9458070816389F9cBB813b2449E93ebe",
+      "deployer": "0xbF85ef4216340eB5cD3c57B550aae7A2712D48d2",
+      "constructorArgs": [
+        "3690684128600000"
+      ],
+      "verified": false,
+      "package": {
+        "version": "1.4.9",
+        "git": {
+          "commit": "e2e2352"
+        },
+        "compiler": {
+          "version": "0.8.10",
+          "optimizer": {
+            "runs": 800
+          }
+        }
+      }
+    }
+  },
+  "AggregatorYAPE": {
+    "goerli": {
+      "address": "0xF43136442a26B459a3e3e6d2D2B4F62200258864",
+      "deployer": "0xbF85ef4216340eB5cD3c57B550aae7A2712D48d2",
+      "constructorArgs": [
+        "3690684128600000"
+      ],
+      "verified": false,
+      "package": {
+        "version": "1.4.9",
+        "git": {
+          "commit": "e2e2352"
+        },
+        "compiler": {
+          "version": "0.8.10",
+          "optimizer": {
+            "runs": 800
+          }
+        }
+      }
+    }
+  },
+  "AggregatorBAYC": {
+    "goerli": {
+      "address": "0xB677bfBc9B09a3469695f40477d05bc9BcB15F50",
+      "version": "1.4.9",
+      "package": {
+        "version": "1.4.9",
+        "git": {
+          "commit": "e2e2352"
+        },
+        "compiler": {
+          "version": "0.8.10",
+          "optimizer": {
+            "runs": 800
+          }
+        }
+      }
+    }
+  },
+  "AggregatorMAYC": {
+    "goerli": {
+      "address": "0xCbDcc8788019226d09FcCEb4C727C48A062D8124",
+      "version": "1.4.9",
+      "package": {
+        "version": "1.4.9",
+        "git": {
+          "commit": "e2e2352"
+        },
+        "compiler": {
+          "version": "0.8.10",
+          "optimizer": {
+            "runs": 800
+          }
+        }
+      }
+    }
+  },
+  "AggregatorUniswapV3": {
+    "goerli": {
+      "address": "0x3fAD3579a39446fDd8dCb8E0fb9a48099CB39194",
+      "deployer": "0xbF85ef4216340eB5cD3c57B550aae7A2712D48d2",
+      "constructorArgs": [
+        "0x1F98431c8aD98523631AE4a59f267346ea31F984",
+        "0xC36442b4a4522E871399CD717aBDD847Ab11FE88",
+        "0xbf0F233AC6B1ed4Cf51c1E6Ebf5d133b3435EaC6"
+      ],
+      "verified": false,
+      "package": {
+        "version": "1.4.9",
+        "git": {
+          "commit": "e2e2352"
+        },
+        "compiler": {
+          "version": "0.8.10",
+          "optimizer": {
+            "runs": 800
+          }
+        }
+      }
+    }
+  },
+  "AggregatorBAKC": {
+    "goerli": {
+      "address": "0xC7458bd6673D77dc83C093Da3D1a96d3DD7c71A3",
+      "deployer": "0xbF85ef4216340eB5cD3c57B550aae7A2712D48d2",
+      "constructorArgs": [
+        "6000000000000000000"
+      ],
+      "verified": false,
+      "package": {
+        "version": "1.4.9",
+        "git": {
+          "commit": "e2e2352"
+        },
+        "compiler": {
+          "version": "0.8.10",
+          "optimizer": {
+            "runs": 800
+          }
+        }
+      }
+    }
+  },
+  "ParaSpaceOracle": {
+    "goerli": {
+      "address": "0x7Dfd868cD251999F5FDEdE78d1c9Ddcb58e75760",
+      "deployer": "0xbF85ef4216340eB5cD3c57B550aae7A2712D48d2",
+      "constructorArgs": [
+        "0xbf0F233AC6B1ed4Cf51c1E6Ebf5d133b3435EaC6",
+        [
+          "0x333EE834a68BF6345691F70c15b50b87Fd1E562B",
+          "0xD03E8caE9398c76096b597C8D06D9689A3A2e83e",
+          "0x6BAeD00EeeC28427D87CbB83BbDc06D89f8e51E5",
+          "0x0d7f5BDcAEc35685f908590157EFDD51aA16956d",
+          "0x328507DC29C95c170B56a1b3A758eB7a9E73455c",
+          "0x0000000000000000000000000000000000000001",
+          "0x2D369Ddb82Eeeb68dda1dfd7aDfD6EFD50E23796",
+          "0xFDA14Ba45634d891078d3A1cb09be3b738349Df4",
+          "0xF40299b626ef6E197F5d9DE9315076CAB788B6Ef",
+          "0x3f228cBceC3aD130c45D21664f2C7f5b23130d23",
+          "0xC36442b4a4522E871399CD717aBDD847Ab11FE88",
+          "0x44C9ACA7CF2D3D7b82D8D56CffA916Fd3C20ADA8"
+        ],
+        [
+          "0xf8f0A3a17a222db0383bB185B0D283f28a0B82F4",
+          "0x2969e8c808AA5F3665089288E340A79c595d26C8",
+          "0xE6973655549Da3C00Be74718c384b80eB16CF5A3",
+          "0x5aDb518a80dAA9E25C61cdfa09deB0Be3d248C52",
+          "0xe44B478a37ec336Ee8D8283A59eBD9a5C982896D",
+          "0xdd9D427B21106771DCD2d7e2Bc53eCFc126c5a99",
+          "0xe08fE00C9458070816389F9cBB813b2449E93ebe",
+          "0xF43136442a26B459a3e3e6d2D2B4F62200258864",
+          "0xB677bfBc9B09a3469695f40477d05bc9BcB15F50",
+          "0xCbDcc8788019226d09FcCEb4C727C48A062D8124",
+          "0x3fAD3579a39446fDd8dCb8E0fb9a48099CB39194",
+          "0xC7458bd6673D77dc83C093Da3D1a96d3DD7c71A3"
+        ],
+        "0xe8131a7f635634549f6A14c54ba9948A0B3b8e29",
+        "0xB4FBF271143F4FBf7B91A5ded31805e42b2208d6",
+        "1000000000000000000"
+      ],
+      "verified": false,
+      "package": {
+        "version": "1.4.9",
+        "git": {
+          "commit": "e2e2352"
+        },
+        "compiler": {
+          "version": "0.8.10",
+          "optimizer": {
+            "runs": 800
+          }
+        }
+      }
+    }
+  },
+  "ProtocolDataProvider": {
+    "goerli": {
+      "address": "0xA5e11Ec3f4Bdc382a4299a51f34671d90C565a4d",
+      "deployer": "0xbF85ef4216340eB5cD3c57B550aae7A2712D48d2",
+      "constructorArgs": [
+        "0xbf0F233AC6B1ed4Cf51c1E6Ebf5d133b3435EaC6"
+      ],
+      "verified": false,
+      "package": {
+        "version": "1.4.9",
+        "git": {
+          "commit": "e2e2352"
+        },
+        "compiler": {
+          "version": "0.8.10",
+          "optimizer": {
+            "runs": 800
+          }
+        }
+      }
+    }
+  },
+  "UiPoolDataProvider": {
+    "goerli": {
+      "address": "0xCFD2d336B665cFFF45c5401733800F2824B49e32",
+      "deployer": "0xbF85ef4216340eB5cD3c57B550aae7A2712D48d2",
+      "constructorArgs": [
+        "0xD4a33860578De61DBAbDc8BFdb98FD742fA7028e",
+        "0xD4a33860578De61DBAbDc8BFdb98FD742fA7028e"
+      ],
+      "verified": false,
+      "package": {
+        "version": "1.4.9",
+        "git": {
+          "commit": "e2e2352"
+        },
+        "compiler": {
+          "version": "0.8.10",
+          "optimizer": {
+            "runs": 800
+          }
+        }
+      }
+    }
+  },
+  "WalletBalanceProvider": {
+    "goerli": {
+      "address": "0xC83F0fcad201823B015d1594A441b22ea162edD5",
+      "deployer": "0xbF85ef4216340eB5cD3c57B550aae7A2712D48d2",
+      "constructorArgs": [],
+      "verified": false,
+      "package": {
+        "version": "1.4.9",
+        "git": {
+          "commit": "e2e2352"
+        },
+        "compiler": {
+          "version": "0.8.10",
+          "optimizer": {
+            "runs": 800
+          }
+        }
+      }
+    }
+  },
+  "rateStrategyUSDC": {
+    "goerli": {
+      "address": "0xA4968756Ef385DAaBbB7782D0eeeF425Be820d27",
+      "deployer": "0xbF85ef4216340eB5cD3c57B550aae7A2712D48d2",
+      "constructorArgs": [
+        "0xbf0F233AC6B1ed4Cf51c1E6Ebf5d133b3435EaC6",
+        "900000000000000000000000000",
+        "0",
+        "40000000000000000000000000",
+        "600000000000000000000000000"
+      ],
+      "verified": false,
+      "package": {
+        "version": "1.4.9",
+        "git": {
+          "commit": "e2e2352"
+        },
+        "compiler": {
+          "version": "0.8.10",
+          "optimizer": {
+            "runs": 800
+          }
+        }
+      }
+    }
+  },
+  "timeLockStrategyUSDC": {
+    "goerli": {
+      "address": "0x5bbE7C8151aef88E46eB6Db5A4f8f91032C921Df",
+      "deployer": "0xbF85ef4216340eB5cD3c57B550aae7A2712D48d2",
+      "constructorArgs": [
+        "0x1521D0E668099aF29A6d6aDBB0479f3dCdaEf46e",
+        "105000000000",
+        "400000000000",
+        "12",
+        "7200",
+        "21600",
+        "1875000000000",
+        "600",
+        "86400"
+      ],
+      "verified": false,
+      "package": {
+        "version": "1.4.9",
+        "git": {
+          "commit": "e2e2352"
+        },
+        "compiler": {
+          "version": "0.8.10",
+          "optimizer": {
+            "runs": 800
+          }
+        }
+      }
+    }
+  },
+  "rateStrategyWETH": {
+    "goerli": {
+      "address": "0x6f7880976907c674b29c0EEcd84eaa26d9e98A5e",
+      "deployer": "0xbF85ef4216340eB5cD3c57B550aae7A2712D48d2",
+      "constructorArgs": [
+        "0xbf0F233AC6B1ed4Cf51c1E6Ebf5d133b3435EaC6",
+        "700000000000000000000000000",
+        "25000000000000000000000000",
+        "80000000000000000000000000",
+        "900000000000000000000000000"
+      ],
+      "verified": false,
+      "package": {
+        "version": "1.4.9",
+        "git": {
+          "commit": "e2e2352"
+        },
+        "compiler": {
+          "version": "0.8.10",
+          "optimizer": {
+            "runs": 800
+          }
+        }
+      }
+    }
+  },
+  "timeLockStrategyWETH": {
+    "goerli": {
+      "address": "0x993c90E08A1176b7f42eB972B33401149Ff74727",
+      "deployer": "0xbF85ef4216340eB5cD3c57B550aae7A2712D48d2",
+      "constructorArgs": [
+        "0x1521D0E668099aF29A6d6aDBB0479f3dCdaEf46e",
+        "51500000000000000000",
+        "155000000000000000000",
+        "12",
+        "7200",
+        "21600",
+        "1900000000000000000000",
+        "600",
+        "86400"
+      ],
+      "verified": false,
+      "package": {
+        "version": "1.4.9",
+        "git": {
+          "commit": "e2e2352"
+        },
+        "compiler": {
+          "version": "0.8.10",
+          "optimizer": {
+            "runs": 800
+          }
+        }
+      }
+    }
+  },
+  "rateStrategyAPE": {
+    "goerli": {
+      "address": "0x20201a875A50d3005a62b66ce7CA13513E07978E",
+      "deployer": "0xbF85ef4216340eB5cD3c57B550aae7A2712D48d2",
+      "constructorArgs": [
+        "0xbf0F233AC6B1ed4Cf51c1E6Ebf5d133b3435EaC6",
+        "900000000000000000000000000",
+        "700000000000000000000000000",
+        "450000000000000000000000000",
+        "550000000000000000000000000"
+      ],
+      "verified": false,
+      "package": {
+        "version": "1.4.9",
+        "git": {
+          "commit": "e2e2352"
+        },
+        "compiler": {
+          "version": "0.8.10",
+          "optimizer": {
+            "runs": 800
+          }
+        }
+      }
+    }
+  },
+  "timeLockStrategyAPE": {
+    "goerli": {
+      "address": "0x65B1ECf2aA438FbeB6600741a2586E77df5C360E",
+      "deployer": "0xbF85ef4216340eB5cD3c57B550aae7A2712D48d2",
+      "constructorArgs": [
+        "0x1521D0E668099aF29A6d6aDBB0479f3dCdaEf46e",
+        "10975000000000000000000",
+        "20100000000000000000000",
+        "12",
+        "7200",
+        "21600",
+        "30000000000000000000000",
+        "600",
+        "86400"
+      ],
+      "verified": false,
+      "package": {
+        "version": "1.4.9",
+        "git": {
+          "commit": "e2e2352"
+        },
+        "compiler": {
+          "version": "0.8.10",
+          "optimizer": {
+            "runs": 800
+          }
+        }
+      }
+    }
+  },
+  "rateStrategyWBTC": {
+    "goerli": {
+      "address": "0xB03Be0394493D3b67ED8F49A9De71a967D6F6363",
+      "deployer": "0xbF85ef4216340eB5cD3c57B550aae7A2712D48d2",
+      "constructorArgs": [
+        "0xbf0F233AC6B1ed4Cf51c1E6Ebf5d133b3435EaC6",
+        "850000000000000000000000000",
+        "180000000000000000000000000",
+        "80000000000000000000000000",
+        "600000000000000000000000000"
+      ],
+      "verified": false,
+      "package": {
+        "version": "1.4.9",
+        "git": {
+          "commit": "e2e2352"
+        },
+        "compiler": {
+          "version": "0.8.10",
+          "optimizer": {
+            "runs": 800
+          }
+        }
+      }
+    }
+  },
+  "timeLockStrategyWBTC": {
+    "goerli": {
+      "address": "0x42530A430f150e86AC16D35aF1Dc5F4e38E42267",
+      "deployer": "0xbF85ef4216340eB5cD3c57B550aae7A2712D48d2",
+      "constructorArgs": [
+        "0x1521D0E668099aF29A6d6aDBB0479f3dCdaEf46e",
+        "250000000",
+        "280000000",
+        "12",
+        "7200",
+        "21600",
+        "300000000",
+        "600",
+        "86400"
+      ],
+      "verified": false,
+      "package": {
+        "version": "1.4.9",
+        "git": {
+          "commit": "e2e2352"
+        },
+        "compiler": {
+          "version": "0.8.10",
+          "optimizer": {
+            "runs": 800
+          }
+        }
+      }
+    }
+  },
+  "rateStrategyXETH": {
+    "goerli": {
+      "address": "0x240DfD142527CB3815942a111bc9E8a2a1021b6B",
+      "deployer": "0xbF85ef4216340eB5cD3c57B550aae7A2712D48d2",
+      "constructorArgs": [
+        "0xbf0F233AC6B1ed4Cf51c1E6Ebf5d133b3435EaC6",
+        "650000000000000000000000000",
+        "25000000000000000000000000",
+        "70000000000000000000000000",
+        "1000000000000000000000000000"
+      ],
+      "verified": false,
+      "package": {
+        "version": "1.4.9",
+        "git": {
+          "commit": "e2e2352"
+        },
+        "compiler": {
+          "version": "0.8.10",
+          "optimizer": {
+            "runs": 800
+          }
+        }
+      }
+    }
+  },
+  "timeLockStrategyWSTETH": {
+    "goerli": {
+      "address": "0x4A38997723D1eACbA867B59d8dc1b658574f8BF3",
+      "deployer": "0xbF85ef4216340eB5cD3c57B550aae7A2712D48d2",
+      "constructorArgs": [
+        "0x1521D0E668099aF29A6d6aDBB0479f3dCdaEf46e",
+        "51500000000000000000",
+        "155000000000000000000",
+        "12",
+        "7200",
+        "21600",
+        "1900000000000000000000",
+        "600",
+        "86400"
+      ],
+      "verified": false,
+      "package": {
+        "version": "1.4.9",
+        "git": {
+          "commit": "e2e2352"
+        },
+        "compiler": {
+          "version": "0.8.10",
+          "optimizer": {
+            "runs": 800
+          }
+        }
+      }
+    }
+  },
+  "rateStrategyNFT": {
+    "goerli": {
+      "address": "0xCa9D53C8beb818Ea538a75f44468b8104a6E6C07",
+      "deployer": "0xbF85ef4216340eB5cD3c57B550aae7A2712D48d2",
+      "constructorArgs": [
+        "0xbf0F233AC6B1ed4Cf51c1E6Ebf5d133b3435EaC6",
+        "450000000000000000000000000",
+        "0",
+        "70000000000000000000000000",
+        "3000000000000000000000000000"
+      ],
+      "verified": false,
+      "package": {
+        "version": "1.4.9",
+        "git": {
+          "commit": "e2e2352"
+        },
+        "compiler": {
+          "version": "0.8.10",
+          "optimizer": {
+            "runs": 800
+          }
+        }
+      }
+    }
+  },
+  "auctionStrategyBAYC": {
+    "goerli": {
+      "address": "0x6a3bFa510631F0186Cf5A4eC4E3Be6C2bF40c081",
+      "deployer": "0xbF85ef4216340eB5cD3c57B550aae7A2712D48d2",
+      "constructorArgs": [
+        "2500000000000000000",
+        "1200000000000000000",
+        "800000000000000000",
+        "11022766650000000",
+        "20225927360000000",
+        "900"
+      ],
+      "verified": false,
+      "package": {
+        "version": "1.4.9",
+        "git": {
+          "commit": "e2e2352"
+        },
+        "compiler": {
+          "version": "0.8.10",
+          "optimizer": {
+            "runs": 800
+          }
+        }
+      }
+    }
+  },
+  "timeLockStrategyBAYC": {
+    "goerli": {
+      "address": "0x6E2d9dAF1cb5D981B40ed876BBCD1ed0c70b3885",
+      "deployer": "0xbF85ef4216340eB5cD3c57B550aae7A2712D48d2",
+      "constructorArgs": [
+        "0x1521D0E668099aF29A6d6aDBB0479f3dCdaEf46e",
+        "2",
+        "4",
+        "12",
+        "7200",
+        "21600",
+        "100",
+        "600",
+        "86400"
+      ],
+      "verified": false,
+      "package": {
+        "version": "1.4.9",
+        "git": {
+          "commit": "e2e2352"
+        },
+        "compiler": {
+          "version": "0.8.10",
+          "optimizer": {
+            "runs": 800
+          }
+        }
+      }
+    }
+  },
+  "auctionStrategyMAYC": {
+    "goerli": {
+      "address": "0x7f544ed9dB48432be90220F56a70E00E762095B8",
+      "deployer": "0xbF85ef4216340eB5cD3c57B550aae7A2712D48d2",
+      "constructorArgs": [
+        "2000000000000000000",
+        "1200000000000000000",
+        "800000000000000000",
+        "18303339030000000",
+        "23374536450000000",
+        "900"
+      ],
+      "verified": false,
+      "package": {
+        "version": "1.4.9",
+        "git": {
+          "commit": "e2e2352"
+        },
+        "compiler": {
+          "version": "0.8.10",
+          "optimizer": {
+            "runs": 800
+          }
+        }
+      }
+    }
+  },
+  "timeLockStrategyMAYC": {
+    "goerli": {
+      "address": "0xC66B1aa5C1837710Acfcc37a12ee7fB70e063926",
+      "deployer": "0xbF85ef4216340eB5cD3c57B550aae7A2712D48d2",
+      "constructorArgs": [
+        "0x1521D0E668099aF29A6d6aDBB0479f3dCdaEf46e",
+        "2",
+        "6",
+        "12",
+        "7200",
+        "21600",
+        "200",
+        "600",
+        "86400"
+      ],
+      "verified": false,
+      "package": {
+        "version": "1.4.9",
+        "git": {
+          "commit": "e2e2352"
+        },
+        "compiler": {
+          "version": "0.8.10",
+          "optimizer": {
+            "runs": 800
+          }
+        }
+      }
+    }
+  },
+  "PTokenImpl": {
+    "goerli": {
+      "address": "0x2a0B74BaEC70c43C1526AEA26182720d9501aB1F",
+      "deployer": "0xbF85ef4216340eB5cD3c57B550aae7A2712D48d2",
+      "constructorArgs": [
+        "0x1521D0E668099aF29A6d6aDBB0479f3dCdaEf46e"
+      ],
+      "verified": false,
+      "package": {
+        "version": "1.4.9",
+        "git": {
+          "commit": "e2e2352"
+        },
+        "compiler": {
+          "version": "0.8.10",
+          "optimizer": {
+            "runs": 800
+          }
+        }
+      }
+    }
+  },
+  "VariableDebtTokenImpl": {
+    "goerli": {
+      "address": "0xB0106c62d662702A012F27b72D0CAC18B13648c9",
+      "deployer": "0xbF85ef4216340eB5cD3c57B550aae7A2712D48d2",
+      "constructorArgs": [
+        "0x1521D0E668099aF29A6d6aDBB0479f3dCdaEf46e"
+      ],
+      "verified": false,
+      "package": {
+        "version": "1.4.9",
+        "git": {
+          "commit": "e2e2352"
+        },
+        "compiler": {
+          "version": "0.8.10",
+          "optimizer": {
+            "runs": 800
+          }
+        }
+      }
+    }
+  },
+  "PTokenStETHImpl": {
+    "goerli": {
+      "address": "0x3acD2411c6676041E0ae4FC76801d5a6dAE3DD26",
+      "deployer": "0xbF85ef4216340eB5cD3c57B550aae7A2712D48d2",
+      "constructorArgs": [
+        "0x1521D0E668099aF29A6d6aDBB0479f3dCdaEf46e"
+      ],
+      "verified": false,
+      "package": {
+        "version": "1.4.9",
+        "git": {
+          "commit": "e2e2352"
+        },
+        "compiler": {
+          "version": "0.8.10",
+          "optimizer": {
+            "runs": 800
+          }
+        }
+      }
+    }
+  },
+  "StETHDebtToken": {
+    "goerli": {
+      "address": "0x44d77bC93F23f619bF84F83bB3B7EA7a11a7c143",
+      "deployer": "0xbF85ef4216340eB5cD3c57B550aae7A2712D48d2",
+      "constructorArgs": [
+        "0x1521D0E668099aF29A6d6aDBB0479f3dCdaEf46e"
+      ],
+      "verified": false,
+      "package": {
+        "version": "1.4.9",
+        "git": {
+          "commit": "e2e2352"
+        },
+        "compiler": {
+          "version": "0.8.10",
+          "optimizer": {
+            "runs": 800
+          }
+        }
+      }
+    }
+  },
+  "ApeStakingLogic": {
+    "goerli": {
+      "address": "0xe3ee6861338adF57996C28619aB6D26A9E884D8f",
+      "deployer": "0xbF85ef4216340eB5cD3c57B550aae7A2712D48d2",
+      "constructorArgs": [],
+      "verified": false,
+      "package": {
+        "version": "1.4.9",
+        "git": {
+          "commit": "e2e2352"
+        },
+        "compiler": {
+          "version": "0.8.10",
+          "optimizer": {
+            "runs": 800
+          }
+        }
+      }
+    }
+  },
+  "MintableERC721Logic": {
+    "goerli": {
+      "address": "0xc1B61D475C8B2115865Ccc720DFf95027A0421E1",
+      "deployer": "0xbF85ef4216340eB5cD3c57B550aae7A2712D48d2",
+      "constructorArgs": [],
+      "verified": false,
+      "package": {
+        "version": "1.4.9",
+        "git": {
+          "commit": "e2e2352"
+        },
+        "compiler": {
+          "version": "0.8.10",
+          "optimizer": {
+            "runs": 800
+          }
+        }
+      }
+    }
+  },
+  "NTokenBAYCImpl": {
+    "goerli": {
+      "address": "0x95047c3f5126FA374f0f98a20084224f2BeA25b8",
+      "deployer": "0xbF85ef4216340eB5cD3c57B550aae7A2712D48d2",
+      "constructorArgs": [
+        "0x1521D0E668099aF29A6d6aDBB0479f3dCdaEf46e",
+        "0xeF37717B1807a253c6D140Aca0141404D23c26D4",
+        "0x00000000000076A84feF008CDAbe6409d2FE638B"
+      ],
+      "verified": false,
+      "package": {
+        "version": "1.4.9",
+        "git": {
+          "commit": "e2e2352"
+        },
+        "compiler": {
+          "version": "0.8.10",
+          "optimizer": {
+            "runs": 800
+          }
+        }
+      },
+      "libraries": {
+        "ApeStakingLogic": "0xe3ee6861338adF57996C28619aB6D26A9E884D8f",
+        "MintableERC721Logic": "0xc1B61D475C8B2115865Ccc720DFf95027A0421E1"
+      }
+    }
+  },
+  "NTokenMAYCImpl": {
+    "goerli": {
+      "address": "0xfd7E4e3aF22038fA3C654C7d3Ab9fceCA224C822",
+      "deployer": "0xbF85ef4216340eB5cD3c57B550aae7A2712D48d2",
+      "constructorArgs": [
+        "0x1521D0E668099aF29A6d6aDBB0479f3dCdaEf46e",
+        "0xeF37717B1807a253c6D140Aca0141404D23c26D4",
+        "0x00000000000076A84feF008CDAbe6409d2FE638B"
+      ],
+      "verified": false,
+      "package": {
+        "version": "1.4.9",
+        "git": {
+          "commit": "e2e2352"
+        },
+        "compiler": {
+          "version": "0.8.10",
+          "optimizer": {
+            "runs": 800
+          }
+        }
+      },
+      "libraries": {
+        "ApeStakingLogic": "0xe3ee6861338adF57996C28619aB6D26A9E884D8f",
+        "MintableERC721Logic": "0xc1B61D475C8B2115865Ccc720DFf95027A0421E1"
+      }
+    }
+  },
+  "timeLockStrategyUniswapV3": {
+    "goerli": {
+      "address": "0x2802760c863Efe13D9074e29F0c1703D142d4Bb5",
+      "deployer": "0xbF85ef4216340eB5cD3c57B550aae7A2712D48d2",
+      "constructorArgs": [
+        "0x1521D0E668099aF29A6d6aDBB0479f3dCdaEf46e",
+        "5",
+        "10",
+        "12",
+        "7200",
+        "21600",
+        "50",
+        "600",
+        "86400"
+      ],
+      "verified": false,
+      "package": {
+        "version": "1.4.9",
+        "git": {
+          "commit": "e2e2352"
+        },
+        "compiler": {
+          "version": "0.8.10",
+          "optimizer": {
+            "runs": 800
+          }
+        }
+      }
+    }
+  },
+  "timeLockStrategySAPE": {
+    "goerli": {
+      "address": "0x5128ec5f790abb188e7eBC97a8f4607b101C83B2",
+      "deployer": "0xbF85ef4216340eB5cD3c57B550aae7A2712D48d2",
+      "constructorArgs": [
+        "0x1521D0E668099aF29A6d6aDBB0479f3dCdaEf46e",
+        "10975000000000000000000",
+        "53000000000000000000000",
+        "12",
+        "7200",
+        "21600",
+        "1000000000000000000000000",
+        "600",
+        "86400"
+      ],
+      "verified": false,
+      "package": {
+        "version": "1.4.9",
+        "git": {
+          "commit": "e2e2352"
+        },
+        "compiler": {
+          "version": "0.8.10",
+          "optimizer": {
+            "runs": 800
+          }
+        }
+      }
+    }
+  },
+  "timeLockStrategyCAPE": {
+    "goerli": {
+      "address": "0x2eB924C3Cc441E3e387843381109d44849De9578",
+      "deployer": "0xbF85ef4216340eB5cD3c57B550aae7A2712D48d2",
+      "constructorArgs": [
+        "0x1521D0E668099aF29A6d6aDBB0479f3dCdaEf46e",
+        "10975000000000000000000",
+        "53000000000000000000000",
+        "12",
+        "7200",
+        "21600",
+        "1000000000000000000000000",
+        "600",
+        "86400"
+      ],
+      "verified": false,
+      "package": {
+        "version": "1.4.9",
+        "git": {
+          "commit": "e2e2352"
+        },
+        "compiler": {
+          "version": "0.8.10",
+          "optimizer": {
+            "runs": 800
+          }
+        }
+      }
+    }
+  },
+  "timeLockStrategyYAPE": {
+    "goerli": {
+      "address": "0x67cCC196B5dd76e038C0Ca8CB6cAEA2d7F288CdC",
+      "deployer": "0xbF85ef4216340eB5cD3c57B550aae7A2712D48d2",
+      "constructorArgs": [
+        "0x1521D0E668099aF29A6d6aDBB0479f3dCdaEf46e",
+        "10975000000000000000000",
+        "53000000000000000000000",
+        "12",
+        "7200",
+        "21600",
+        "1000000000000000000000000",
+        "600",
+        "86400"
+      ],
+      "verified": false,
+      "package": {
+        "version": "1.4.9",
+        "git": {
+          "commit": "e2e2352"
+        },
+        "compiler": {
+          "version": "0.8.10",
+          "optimizer": {
+            "runs": 800
+          }
+        }
+      }
+    }
+  },
+  "auctionStrategyBAKC": {
+    "goerli": {
+      "address": "0xe06fDf6D0B57f07A358Bb94e6321FAb3B4FB7E65",
+      "deployer": "0xbF85ef4216340eB5cD3c57B550aae7A2712D48d2",
+      "constructorArgs": [
+        "2000000000000000000",
+        "1200000000000000000",
+        "800000000000000000",
+        "11022766650000000",
+        "20225927360000000",
+        "900"
+      ],
+      "verified": false,
+      "package": {
+        "version": "1.4.9",
+        "git": {
+          "commit": "e2e2352"
+        },
+        "compiler": {
+          "version": "0.8.10",
+          "optimizer": {
+            "runs": 800
+          }
+        }
+      }
+    }
+  },
+  "timeLockStrategyBAKC": {
+    "goerli": {
+      "address": "0x157fe537a345b8bd8bA3aC8d5D41b15c10F62b4A",
+      "deployer": "0xbF85ef4216340eB5cD3c57B550aae7A2712D48d2",
+      "constructorArgs": [
+        "0x1521D0E668099aF29A6d6aDBB0479f3dCdaEf46e",
+        "4",
+        "12",
+        "12",
+        "7200",
+        "21600",
+        "57",
+        "600",
+        "86400"
+      ],
+      "verified": false,
+      "package": {
+        "version": "1.4.9",
+        "git": {
+          "commit": "e2e2352"
+        },
+        "compiler": {
+          "version": "0.8.10",
+          "optimizer": {
+            "runs": 800
+          }
+        }
+      }
+    }
+  },
+  "NTokenUniswapV3Impl": {
+    "goerli": {
+      "address": "0x5f76C17a6d920b6dd8849F80BFa8c55E57F28541",
+      "deployer": "0xbF85ef4216340eB5cD3c57B550aae7A2712D48d2",
+      "constructorArgs": [
+        "0x1521D0E668099aF29A6d6aDBB0479f3dCdaEf46e",
+        "0x00000000000076A84feF008CDAbe6409d2FE638B"
+      ],
+      "verified": false,
+      "package": {
+        "version": "1.4.9",
+        "git": {
+          "commit": "e2e2352"
+        },
+        "compiler": {
+          "version": "0.8.10",
+          "optimizer": {
+            "runs": 800
+          }
+        }
+      },
+      "libraries": {
+        "MintableERC721Logic": "0xc1B61D475C8B2115865Ccc720DFf95027A0421E1"
+      }
+    }
+  },
+  "PTokenSApeImpl": {
+    "goerli": {
+      "address": "0x01362240fdEA2e5153E3c8c361204B92ec7654D2",
+      "deployer": "0xbF85ef4216340eB5cD3c57B550aae7A2712D48d2",
+      "constructorArgs": [
+        "0x1521D0E668099aF29A6d6aDBB0479f3dCdaEf46e",
+        "0xEe8F454c43AAf162D0CA7020997879658200BB05",
+        "0xF1B6f4E4c0BA5024963dacAD8d180B09Bf30EbF3"
+      ],
+      "verified": false,
+      "package": {
+        "version": "1.4.9",
+        "git": {
+          "commit": "e2e2352"
+        },
+        "compiler": {
+          "version": "0.8.10",
+          "optimizer": {
+            "runs": 800
+          }
+        }
+      }
+    }
+  },
+  "cAPEImpl": {
+    "goerli": {
+      "address": "0xC6c4C25B4624D9ab16588004602F20653e0a2a2D",
+      "deployer": "0xbF85ef4216340eB5cD3c57B550aae7A2712D48d2",
+      "constructorArgs": [
+        "0x328507DC29C95c170B56a1b3A758eB7a9E73455c",
+        "0xeF37717B1807a253c6D140Aca0141404D23c26D4",
+        "0x9C9a852566f308f8F1Cd6d0bAe37017717BcBEac"
+      ],
+      "verified": false,
+      "package": {
+        "version": "1.4.9",
+        "git": {
+          "commit": "e2e2352"
+        },
+        "compiler": {
+          "version": "0.8.10",
+          "optimizer": {
+            "runs": 800
+          }
+        }
+      }
+    }
+  },
+  "PTokenCApeImpl": {
+    "goerli": {
+      "address": "0x582BF5AB50B590ED14493Ffb17eA40fb02B37b10",
+      "deployer": "0xbF85ef4216340eB5cD3c57B550aae7A2712D48d2",
+      "constructorArgs": [
+        "0x1521D0E668099aF29A6d6aDBB0479f3dCdaEf46e"
+      ],
+      "verified": false,
+      "package": {
+        "version": "1.4.9",
+        "git": {
+          "commit": "e2e2352"
+        },
+        "compiler": {
+          "version": "0.8.10",
+          "optimizer": {
+            "runs": 800
+          }
+        }
+      }
+    }
+  },
+  "CApeDebtToken": {
+    "goerli": {
+      "address": "0x0422A1FB6d44F330b0D98942F35376a01cCEa38A",
+      "deployer": "0xbF85ef4216340eB5cD3c57B550aae7A2712D48d2",
+      "constructorArgs": [
+        "0x1521D0E668099aF29A6d6aDBB0479f3dCdaEf46e"
+      ],
+      "verified": false,
+      "package": {
+        "version": "1.4.9",
+        "git": {
+          "commit": "e2e2352"
+        },
+        "compiler": {
+          "version": "0.8.10",
+          "optimizer": {
+            "runs": 800
+          }
+        }
+      }
+    }
+  },
+  "yAPEImpl": {
+    "goerli": {
+      "address": "0x3F2bc3cD1e8D8b3C1A9483bC9df0Be0807BE1D2e",
+      "deployer": "0xbF85ef4216340eB5cD3c57B550aae7A2712D48d2",
+      "constructorArgs": [
+        "0xeF37717B1807a253c6D140Aca0141404D23c26D4",
+        "0x328507DC29C95c170B56a1b3A758eB7a9E73455c",
+        "0x333EE834a68BF6345691F70c15b50b87Fd1E562B",
+        "0x1521D0E668099aF29A6d6aDBB0479f3dCdaEf46e",
+        "0xE592427A0AEce92De3Edee1F18E0157C05861564",
+        "0x9C9a852566f308f8F1Cd6d0bAe37017717BcBEac"
+      ],
+      "verified": false,
+      "package": {
+        "version": "1.4.9",
+        "git": {
+          "commit": "e2e2352"
+        },
+        "compiler": {
+          "version": "0.8.10",
+          "optimizer": {
+            "runs": 800
+          }
+        }
+      }
+    }
+  },
+  "PYieldTokenImpl": {
+    "goerli": {
+      "address": "0xCBd1D284e73c31825296718526FB559C3958BCA6",
+      "deployer": "0xbF85ef4216340eB5cD3c57B550aae7A2712D48d2",
+      "constructorArgs": [
+        "0x1521D0E668099aF29A6d6aDBB0479f3dCdaEf46e"
+      ],
+      "verified": false,
+      "package": {
+        "version": "1.4.9",
+        "git": {
+          "commit": "e2e2352"
+        },
+        "compiler": {
+          "version": "0.8.10",
+          "optimizer": {
+            "runs": 800
+          }
+        }
+      }
+    }
+  },
+  "NTokenBAKCImpl": {
+    "goerli": {
+      "address": "0x2171a7FeEabFB98feaEe30d759b41E1CD8e43D8E",
+      "deployer": "0xbF85ef4216340eB5cD3c57B550aae7A2712D48d2",
+      "constructorArgs": [
+        "0x1521D0E668099aF29A6d6aDBB0479f3dCdaEf46e",
+        "0xeF37717B1807a253c6D140Aca0141404D23c26D4",
+        "0xEe8F454c43AAf162D0CA7020997879658200BB05",
+        "0xF1B6f4E4c0BA5024963dacAD8d180B09Bf30EbF3",
+        "0x00000000000076A84feF008CDAbe6409d2FE638B"
+      ],
+      "verified": false,
+      "package": {
+        "version": "1.4.9",
+        "git": {
+          "commit": "e2e2352"
+        },
+        "compiler": {
+          "version": "0.8.10",
+          "optimizer": {
+            "runs": 800
+          }
+        }
+      },
+      "libraries": {
+        "MintableERC721Logic": "0xc1B61D475C8B2115865Ccc720DFf95027A0421E1"
+      }
+    }
+  },
+  "UiIncentiveDataProvider": {
+    "goerli": {
+      "address": "0xb54Fe1eaa2905BD2F129D7ec32DB8c6F2fe1Da12",
+      "deployer": "0xbF85ef4216340eB5cD3c57B550aae7A2712D48d2",
+      "constructorArgs": [],
+      "verified": false,
+      "package": {
+        "version": "1.4.9",
+        "git": {
+          "commit": "e2e2352"
+        },
+        "compiler": {
+          "version": "0.8.10",
+          "optimizer": {
+            "runs": 800
+          }
+        }
+      }
+    }
+  },
+  "WETHGatewayImpl": {
+    "goerli": {
+      "address": "0x696FA3A4baF54D4916d1D555231C24BF15d36A5F",
+      "deployer": "0xbF85ef4216340eB5cD3c57B550aae7A2712D48d2",
+      "constructorArgs": [
+        "0xB4FBF271143F4FBf7B91A5ded31805e42b2208d6",
+        "0x1521D0E668099aF29A6d6aDBB0479f3dCdaEf46e"
+      ],
+      "verified": false,
+      "package": {
+        "version": "1.4.9",
+        "git": {
+          "commit": "e2e2352"
+        },
+        "compiler": {
+          "version": "0.8.10",
+          "optimizer": {
+            "runs": 800
+          }
+        }
+      }
+    }
+  },
+  "WETHGatewayProxy": {
+    "goerli": {
+      "address": "0x20FbE248b23433b58EB00aE19521d2b033DBBc02",
+      "deployer": "0xbF85ef4216340eB5cD3c57B550aae7A2712D48d2",
+      "constructorArgs": [
+        "0x0000000000000000000000000000000000000000"
+      ],
+      "verified": false,
+      "package": {
+        "version": "1.4.9",
+        "git": {
+          "commit": "e2e2352"
+        },
+        "compiler": {
+          "version": "0.8.10",
+          "optimizer": {
+            "runs": 800
+          }
+        }
+      }
+    }
+  },
+  "AirdropFlashClaimReceiver": {
+    "goerli": {
+      "address": "0x170f56beC1042Bf94c58EDDF827C972eF669b151",
+      "deployer": "0xbF85ef4216340eB5cD3c57B550aae7A2712D48d2",
+      "constructorArgs": [
+        "0x1521D0E668099aF29A6d6aDBB0479f3dCdaEf46e"
+      ],
+      "verified": false,
+      "package": {
+        "version": "1.4.9",
+        "git": {
+          "commit": "e2e2352"
+        },
+        "compiler": {
+          "version": "0.8.10",
+          "optimizer": {
+            "runs": 800
+          }
+        }
+      }
+    }
+  },
+  "FlashClaimRegistry": {
+    "goerli": {
+      "address": "0xC0C98A59115117F68ADDeB4396F9b71435EAB00C",
+      "deployer": "0xbF85ef4216340eB5cD3c57B550aae7A2712D48d2",
+      "constructorArgs": [
+        "0x1521D0E668099aF29A6d6aDBB0479f3dCdaEf46e",
+        "0x170f56beC1042Bf94c58EDDF827C972eF669b151"
+      ],
+      "verified": false,
+      "package": {
+        "version": "1.4.9",
+        "git": {
+          "commit": "e2e2352"
+        },
+        "compiler": {
+          "version": "0.8.10",
+          "optimizer": {
+            "runs": 800
+          }
+        }
+      }
+    }
+  },
+  "UserFlashClaimRegistryProxy": {
+    "goerli": {
+      "address": "0x82c4A5B4c8DB385D9a3509969aE5F04330F91072",
+      "deployer": "0xbF85ef4216340eB5cD3c57B550aae7A2712D48d2",
+      "constructorArgs": [
+        "0xbF85ef4216340eB5cD3c57B550aae7A2712D48d2"
+      ],
+      "verified": true,
+      "package": {
+        "version": "1.4.9",
+        "git": {
+          "commit": "e2e2352"
+        },
+        "compiler": {
+          "version": "0.8.10",
+          "optimizer": {
+            "runs": 800
+          }
+        }
+      }
+    }
+  },
+  "MockAirdropProject": {
+    "goerli": {
+      "address": "0x303b415239aEE8C6EBF33696125a37B86f03CA39",
+      "deployer": "0xbF85ef4216340eB5cD3c57B550aae7A2712D48d2",
+      "constructorArgs": [
+        "0xF40299b626ef6E197F5d9DE9315076CAB788B6Ef"
+      ],
+      "verified": false,
+      "package": {
+        "version": "1.4.9",
+        "git": {
+          "commit": "e2e2352"
+        },
+        "compiler": {
+          "version": "0.8.10",
+          "optimizer": {
+            "runs": 800
+          }
+        }
+      }
+    }
+  },
+  "MockMultiAssetAirdropProject": {
+    "goerli": {
+      "address": "0x3e4561939D0D46EA1CCEA927164ac1ECC747e229",
+      "deployer": "0xbF85ef4216340eB5cD3c57B550aae7A2712D48d2",
+      "constructorArgs": [
+        "0xF40299b626ef6E197F5d9DE9315076CAB788B6Ef",
+        "0x3f228cBceC3aD130c45D21664f2C7f5b23130d23"
+      ],
+      "verified": false,
+      "package": {
+        "version": "1.4.9",
+        "git": {
+          "commit": "e2e2352"
+        },
+        "compiler": {
+          "version": "0.8.10",
+          "optimizer": {
+            "runs": 800
+          }
+        }
+      }
+    }
+  },
+  "P2PPairStakingImpl": {
+    "goerli": {
+      "address": "0x869c6fcEbeF3739eF2235cfC943dddDfD0283a16",
+      "deployer": "0xbF85ef4216340eB5cD3c57B550aae7A2712D48d2",
+      "constructorArgs": [
+        "0xF40299b626ef6E197F5d9DE9315076CAB788B6Ef",
+        "0x3f228cBceC3aD130c45D21664f2C7f5b23130d23",
+        "0x44C9ACA7CF2D3D7b82D8D56CffA916Fd3C20ADA8",
+        "0xEe8F454c43AAf162D0CA7020997879658200BB05",
+        "0xF1B6f4E4c0BA5024963dacAD8d180B09Bf30EbF3",
+        "0xd36a830a7C6bA200497Bf0887ff6eFd5338533F7",
+        "0x328507DC29C95c170B56a1b3A758eB7a9E73455c",
+        "0x2D369Ddb82Eeeb68dda1dfd7aDfD6EFD50E23796",
+        "0xeF37717B1807a253c6D140Aca0141404D23c26D4"
+      ],
+      "verified": false,
+      "package": {
+        "version": "1.4.9",
+        "git": {
+          "commit": "e2e2352"
+        },
+        "compiler": {
+          "version": "0.8.10",
+          "optimizer": {
+            "runs": 800
+          }
+        }
+      }
+    }
+  },
+  "P2PPairStaking": {
+    "goerli": {
+      "address": "0xe5D71CF775022045BBd0e7fd0Fa7138c61432CD9",
+      "deployer": "0xbF85ef4216340eB5cD3c57B550aae7A2712D48d2",
+      "constructorArgs": [],
+      "verified": false,
+      "package": {
+        "version": "1.4.9",
+        "git": {
+          "commit": "e2e2352"
+        },
+        "compiler": {
+          "version": "0.8.10",
+          "optimizer": {
+            "runs": 800
+          }
+        }
+      }
+    }
+  },
+  "HelperContractImpl": {
+    "goerli": {
+      "address": "0x6b27CfbA267e7ec2D1EC9814AF3df10ca95d25fB",
+      "deployer": "0xbF85ef4216340eB5cD3c57B550aae7A2712D48d2",
+      "constructorArgs": [
+        "0x328507DC29C95c170B56a1b3A758eB7a9E73455c",
+        "0x2D369Ddb82Eeeb68dda1dfd7aDfD6EFD50E23796",
+        "0xcd03eC5B3323603a602E97b0fc7c87887F03F072",
+        "0x1521D0E668099aF29A6d6aDBB0479f3dCdaEf46e"
+      ],
+      "verified": false,
+      "package": {
+        "version": "1.4.9",
+        "git": {
+          "commit": "e2e2352"
+        },
+        "compiler": {
+          "version": "0.8.10",
+          "optimizer": {
+            "runs": 800
+          }
+        }
+      }
+    }
+  },
+  "HelperContract": {
+    "goerli": {
+      "address": "0x523df10e57A3D6B2719Ed6FE874ED8f8dCd45d22",
+      "deployer": "0xbF85ef4216340eB5cD3c57B550aae7A2712D48d2",
+      "constructorArgs": [],
+      "verified": false,
+      "package": {
+        "version": "1.4.9",
+        "git": {
+          "commit": "e2e2352"
+        },
+        "compiler": {
+          "version": "0.8.10",
+          "optimizer": {
+            "runs": 800
+          }
+        }
+      }
+    }
+  },
+  "TimeLockImpl": {
+    "goerli": {
+      "address": "0x3D9E77a1d04462C3592D73BC94D00c54599aE393",
+      "deployer": "0xbF85ef4216340eB5cD3c57B550aae7A2712D48d2",
+      "constructorArgs": [
+        "0xbf0F233AC6B1ed4Cf51c1E6Ebf5d133b3435EaC6",
+        "0x0000000000000000000000000000000000000000"
+      ],
+      "verified": false,
+      "package": {
+        "version": "1.4.9",
+        "git": {
+          "commit": "e2e2352"
+        },
+        "compiler": {
+          "version": "0.8.10",
+          "optimizer": {
+            "runs": 800
+          }
+        }
+      }
+    }
+  },
+  "pUSDC": {
+    "goerli": {
+      "address": "0xBA89Ad104D906a52640139f066280b5a6E4Ea735",
+      "version": "1.4.9",
+      "package": {
+        "version": "1.4.9",
+        "git": {
+          "commit": "e2e2352"
+        },
+        "compiler": {
+          "version": "0.8.10",
+          "optimizer": {
+            "runs": 800
+          }
+        }
+      }
+    }
+  },
+  "USDCVariableDebtToken": {
+    "goerli": {
+      "address": "0x9d6c2a6689F0Dac93b6A174E38C5e0743da9e0B5",
+      "version": "1.4.9",
+      "package": {
+        "version": "1.4.9",
+        "git": {
+          "commit": "e2e2352"
+        },
+        "compiler": {
+          "version": "0.8.10",
+          "optimizer": {
+            "runs": 800
+          }
+        }
+      }
+    }
+  },
+  "pWETH": {
+    "goerli": {
+      "address": "0x6EA2054074eed77a22476dADd1D2567a9c21564c",
+      "version": "1.4.9",
+      "package": {
+        "version": "1.4.9",
+        "git": {
+          "commit": "e2e2352"
+        },
+        "compiler": {
+          "version": "0.8.10",
+          "optimizer": {
+            "runs": 800
+          }
+        }
+      }
+    }
+  },
+  "WETHVariableDebtToken": {
+    "goerli": {
+      "address": "0x3153A5eD2631E6fff408ee712C6088F4E9832600",
+      "version": "1.4.9",
+      "package": {
+        "version": "1.4.9",
+        "git": {
+          "commit": "e2e2352"
+        },
+        "compiler": {
+          "version": "0.8.10",
+          "optimizer": {
+            "runs": 800
+          }
+        }
+      }
+    }
+  },
+  "pAPE": {
+    "goerli": {
+      "address": "0xE2373670cCec39fE6D543c5426c320262B876450",
+      "version": "1.4.9",
+      "package": {
+        "version": "1.4.9",
+        "git": {
+          "commit": "e2e2352"
+        },
+        "compiler": {
+          "version": "0.8.10",
+          "optimizer": {
+            "runs": 800
+          }
+        }
+      }
+    }
+  },
+  "APEVariableDebtToken": {
+    "goerli": {
+      "address": "0x4F44a110CD94f7E4D1861C4C9eb1F2B0C54bE7ed",
+      "version": "1.4.9",
+      "package": {
+        "version": "1.4.9",
+        "git": {
+          "commit": "e2e2352"
+        },
+        "compiler": {
+          "version": "0.8.10",
+          "optimizer": {
+            "runs": 800
+          }
+        }
+      }
+    }
+  },
+  "pWBTC": {
+    "goerli": {
+      "address": "0xdED7C229c197eB7544F59A57d536D550B967Ca91",
+      "version": "1.4.9",
+      "package": {
+        "version": "1.4.9",
+        "git": {
+          "commit": "e2e2352"
+        },
+        "compiler": {
+          "version": "0.8.10",
+          "optimizer": {
+            "runs": 800
+          }
+        }
+      }
+    }
+  },
+  "WBTCVariableDebtToken": {
+    "goerli": {
+      "address": "0x0505DE76Aa3FF85a3703366AF2111269f2886E95",
+      "version": "1.4.9",
+      "package": {
+        "version": "1.4.9",
+        "git": {
+          "commit": "e2e2352"
+        },
+        "compiler": {
+          "version": "0.8.10",
+          "optimizer": {
+            "runs": 800
+          }
+        }
+      }
+    }
+  },
+  "pstETH": {
+    "goerli": {
+      "address": "0x2889C20155082E559CD279dBeD79448F078cB39e",
+      "version": "1.4.9",
+      "package": {
+        "version": "1.4.9",
+        "git": {
+          "commit": "e2e2352"
+        },
+        "compiler": {
+          "version": "0.8.10",
+          "optimizer": {
+            "runs": 800
+          }
+        }
+      }
+    }
+  },
+  "stETHVariableDebtToken": {
+    "goerli": {
+      "address": "0xD2784b0485ABb6d7f752469A93A38655f012C12a",
+      "version": "1.4.9",
+      "package": {
+        "version": "1.4.9",
+        "git": {
+          "commit": "e2e2352"
+        },
+        "compiler": {
+          "version": "0.8.10",
+          "optimizer": {
+            "runs": 800
+          }
+        }
+      }
+    }
+  },
+  "pwstETH": {
+    "goerli": {
+      "address": "0x14f68B4b283c39E31de56D31D86C49Df8C7e7798",
+      "version": "1.4.9",
+      "package": {
+        "version": "1.4.9",
+        "git": {
+          "commit": "e2e2352"
+        },
+        "compiler": {
+          "version": "0.8.10",
+          "optimizer": {
+            "runs": 800
+          }
+        }
+      }
+    }
+  },
+  "wstETHVariableDebtToken": {
+    "goerli": {
+      "address": "0xE80F968d9255c0D5479a05bC3E60e90769a83d23",
+      "version": "1.4.9",
+      "package": {
+        "version": "1.4.9",
+        "git": {
+          "commit": "e2e2352"
+        },
+        "compiler": {
+          "version": "0.8.10",
+          "optimizer": {
+            "runs": 800
+          }
+        }
+      }
+    }
+  },
+  "nBAYC": {
+    "goerli": {
+      "address": "0xEe8F454c43AAf162D0CA7020997879658200BB05",
+      "version": "1.4.9",
+      "package": {
+        "version": "1.4.9",
+        "git": {
+          "commit": "e2e2352"
+        },
+        "compiler": {
+          "version": "0.8.10",
+          "optimizer": {
+            "runs": 800
+          }
+        }
+      }
+    }
+  },
+  "BAYCVariableDebtToken": {
+    "goerli": {
+      "address": "0xf28A54Bca3982306F3Fa886CD5989D5f2841d96C",
+      "version": "1.4.9",
+      "package": {
+        "version": "1.4.9",
+        "git": {
+          "commit": "e2e2352"
+        },
+        "compiler": {
+          "version": "0.8.10",
+          "optimizer": {
+            "runs": 800
+          }
+        }
+      }
+    }
+  },
+  "nMAYC": {
+    "goerli": {
+      "address": "0xF1B6f4E4c0BA5024963dacAD8d180B09Bf30EbF3",
+      "version": "1.4.9",
+      "package": {
+        "version": "1.4.9",
+        "git": {
+          "commit": "e2e2352"
+        },
+        "compiler": {
+          "version": "0.8.10",
+          "optimizer": {
+            "runs": 800
+          }
+        }
+      }
+    }
+  },
+  "MAYCVariableDebtToken": {
+    "goerli": {
+      "address": "0x17fb7533EBf2a4F64D37f7e9C79a71763f143F6D",
+      "version": "1.4.9",
+      "package": {
+        "version": "1.4.9",
+        "git": {
+          "commit": "e2e2352"
+        },
+        "compiler": {
+          "version": "0.8.10",
+          "optimizer": {
+            "runs": 800
+          }
+        }
+      }
+    }
+  },
+  "nUniswapV3": {
+    "goerli": {
+      "address": "0x503C5A4a9FC48E5a93798Ecd87de49259609ED9B",
+      "version": "1.4.9",
+      "package": {
+        "version": "1.4.9",
+        "git": {
+          "commit": "e2e2352"
+        },
+        "compiler": {
+          "version": "0.8.10",
+          "optimizer": {
+            "runs": 800
+          }
+        }
+      }
+    }
+  },
+  "UniswapV3VariableDebtToken": {
+    "goerli": {
+      "address": "0x6E142687cE008eA3E70DEf1000682e83Be8E747E",
+      "version": "1.4.9",
+      "package": {
+        "version": "1.4.9",
+        "git": {
+          "commit": "e2e2352"
+        },
+        "compiler": {
+          "version": "0.8.10",
+          "optimizer": {
+            "runs": 800
+          }
+        }
+      }
+    }
+  },
+  "pSApe": {
+    "goerli": {
+      "address": "0xCd93fccB3bFF305B745C3dF90593231a9E5f1A50",
+      "version": "1.4.9",
+      "package": {
+        "version": "1.4.9",
+        "git": {
+          "commit": "e2e2352"
+        },
+        "compiler": {
+          "version": "0.8.10",
+          "optimizer": {
+            "runs": 800
+          }
+        }
+      }
+    }
+  },
+  "SApeVariableDebtToken": {
+    "goerli": {
+      "address": "0x8974e990c58c0fbC59411896ec1Dd2a769B9A621",
+      "version": "1.4.9",
+      "package": {
+        "version": "1.4.9",
+        "git": {
+          "commit": "e2e2352"
+        },
+        "compiler": {
+          "version": "0.8.10",
+          "optimizer": {
+            "runs": 800
+          }
+        }
+      }
+    }
+  },
+  "pcAPE": {
+    "goerli": {
+      "address": "0xcd03eC5B3323603a602E97b0fc7c87887F03F072",
+      "version": "1.4.9",
+      "package": {
+        "version": "1.4.9",
+        "git": {
+          "commit": "e2e2352"
+        },
+        "compiler": {
+          "version": "0.8.10",
+          "optimizer": {
+            "runs": 800
+          }
+        }
+      }
+    }
+  },
+  "cAPEVariableDebtToken": {
+    "goerli": {
+      "address": "0x3890c1C832E183489E7637257204ae2F8Ad845ad",
+      "version": "1.4.9",
+      "package": {
+        "version": "1.4.9",
+        "git": {
+          "commit": "e2e2352"
+        },
+        "compiler": {
+          "version": "0.8.10",
+          "optimizer": {
+            "runs": 800
+          }
+        }
+      }
+    }
+  },
+  "pyAPE": {
+    "goerli": {
+      "address": "0x9f5D89045C1F7211fB0D604c3Fe56d90C3Dc96B6",
+      "version": "1.4.9",
+      "package": {
+        "version": "1.4.9",
+        "git": {
+          "commit": "e2e2352"
+        },
+        "compiler": {
+          "version": "0.8.10",
+          "optimizer": {
+            "runs": 800
+          }
+        }
+      }
+    }
+  },
+  "yAPEVariableDebtToken": {
+    "goerli": {
+      "address": "0x3772167c67Aa33fF5f38D7AC5D23ebA4F98Ddaac",
+      "version": "1.4.9",
+      "package": {
+        "version": "1.4.9",
+        "git": {
+          "commit": "e2e2352"
+        },
+        "compiler": {
+          "version": "0.8.10",
+          "optimizer": {
+            "runs": 800
+          }
+        }
+      }
+    }
+  },
+  "nBAKC": {
+    "goerli": {
+      "address": "0xd36a830a7C6bA200497Bf0887ff6eFd5338533F7",
+      "version": "1.4.9",
+      "package": {
+        "version": "1.4.9",
+        "git": {
+          "commit": "e2e2352"
+        },
+        "compiler": {
+          "version": "0.8.10",
+          "optimizer": {
+            "runs": 800
+          }
+        }
+      }
+    }
+  },
+  "BAKCVariableDebtToken": {
+    "goerli": {
+      "address": "0x0E08EDDcf8fCf308eaA76FEd58293594CE4e684d",
+      "version": "1.4.9",
+      "package": {
+        "version": "1.4.9",
+        "git": {
+          "commit": "e2e2352"
+        },
+        "compiler": {
+          "version": "0.8.10",
+          "optimizer": {
+            "runs": 800
+          }
+        }
+      }
+    }
+  }
+}
