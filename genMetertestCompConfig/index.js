@@ -180,7 +180,7 @@ const getRateModalJSON = (inputJson) => {
     } else {
       const aimRateModal = _InterestRateModel.find(item => item.address === rateModelAddr)
       if (aimRateModal.contract === WhitePaperInterestRateModel) {
-        console.log('block interval: ', (24 * 60 * 60 * 365) / aimRateModal.args[0])
+        
         rateModel.push({
           name: aimRateModal.contract,
           address: aimRateModal.address,
@@ -189,6 +189,7 @@ const getRateModalJSON = (inputJson) => {
           multiplierPerYear: aimRateModal.args[2] / 10 ** 18
         })
       } else if (aimRateModal.contract === JumpRateModelV2) {
+        console.log('block interval: ', (24 * 60 * 60 * 365) / aimRateModal.args[0])
         rateModel.push({
           name: aimRateModal.contract,
           address: aimRateModal.address,

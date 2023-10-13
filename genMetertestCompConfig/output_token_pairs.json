@@ -62,6 +62,13 @@
       "ctokenDecimal": 18,
       "underlyDecimal": 18,
       "ctokenIsEther": false
+    },
+    {
+      "ctokenSym": "sdrMTR",
+      "underlySym": "MTR",
+      "ctokenDecimal": 18,
+      "underlyDecimal": 18,
+      "ctokenIsEther": true
     }
   ]
 }

@@ -6,7 +6,7 @@
   "scripts": {
     "generatePara": "node parameter/index.js",
     "fetchNFTImg": "node fetchNFTImage/index.js",
-    "genMetertestCompConfig": "node genMetertestCompConfig/index.js",
+    "metertest": "node genMetertestCompConfig/index.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "keywords": [],
