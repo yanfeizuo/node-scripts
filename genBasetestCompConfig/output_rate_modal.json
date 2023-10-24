@@ -1,0 +1,37 @@
+{
+  "basetest": [
+    {
+      "name": "JumpRateModelV2",
+      "address": "0xfdfB839Cc859E863B0a594F3540795E09BD60e76",
+      "tokens": [
+        "USDC",
+        "USDT",
+        "BTC"
+      ],
+      "baseRatePerYear": 0.02,
+      "multiplierPerYear": 0.2,
+      "jumpMultiplierPerYear": 4,
+      "kink": 0.6
+    },
+    {
+      "name": "ZeroInterestRateModel",
+      "address": "0x07823dD84D58d5B779Daf9E1D3B04B13cB3acAA8",
+      "tokens": [
+        "suUSD",
+        "suETH",
+        "suBTC"
+      ]
+    },
+    {
+      "name": "JumpRateModelV2",
+      "address": "0xB79F1af961dA05a89D810251Af338BBfb98AFDF5",
+      "tokens": [
+        "ETH"
+      ],
+      "baseRatePerYear": 0.02,
+      "multiplierPerYear": 0.15,
+      "jumpMultiplierPerYear": 3,
+      "kink": 0.6
+    }
+  ]
+}
