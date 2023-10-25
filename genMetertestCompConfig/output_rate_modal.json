@@ -2,26 +2,26 @@
   "metertest": [
     {
       "name": "JumpRateModelV2",
-      "address": "0xa7D956de01B40A9ACcc9256d3c033eBc9E65894C",
+      "address": "0xcab2c2D30f96Bb3Cb068Cb99612f198Be7388b83",
       "tokens": [
         "USDC",
-        "USDT",
-        "wstMTRG"
+        "MTRG",
+        "ETH",
+        "MTR"
       ],
-      "baseRatePerYear": 0.03,
+      "baseRatePerYear": 0.02,
       "multiplierPerYear": 0.15,
       "jumpMultiplierPerYear": 3,
       "kink": 0.6
     },
     {
       "name": "JumpRateModelV2",
-      "address": "0xcab2c2D30f96Bb3Cb068Cb99612f198Be7388b83",
+      "address": "0xa7D956de01B40A9ACcc9256d3c033eBc9E65894C",
       "tokens": [
-        "MTRG",
-        "ETH",
-        "MTR"
+        "USDT",
+        "wstMTRG"
       ],
-      "baseRatePerYear": 0.02,
+      "baseRatePerYear": 0.03,
       "multiplierPerYear": 0.15,
       "jumpMultiplierPerYear": 3,
       "kink": 0.6
