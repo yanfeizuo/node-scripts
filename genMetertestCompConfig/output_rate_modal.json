@@ -2,42 +2,44 @@
   "metertest": [
     {
       "name": "JumpRateModelV2",
-      "address": "0xcab2c2D30f96Bb3Cb068Cb99612f198Be7388b83",
+      "address": "0x916e898D0f52339DdA5dF1b55cDe6A55E5bc700A",
       "tokens": [
         "USDC",
-        "MTRG",
+        "USDT",
         "ETH",
+        "BTC",
         "MTR"
       ],
       "baseRatePerYear": 0.02,
-      "multiplierPerYear": 0.15,
-      "jumpMultiplierPerYear": 3,
-      "kink": 0.6
+      "multiplierPerYear": 0.12,
+      "jumpMultiplierPerYear": 1,
+      "kink": 0.75
     },
     {
       "name": "JumpRateModelV2",
-      "address": "0xa7D956de01B40A9ACcc9256d3c033eBc9E65894C",
+      "address": "0x9A570B56B0Cf0eB0EAdeeD894F547D7a226Cb9e2",
       "tokens": [
-        "USDT",
-        "wstMTRG"
+        "MTRG"
       ],
-      "baseRatePerYear": 0.03,
-      "multiplierPerYear": 0.15,
-      "jumpMultiplierPerYear": 3,
-      "kink": 0.6
+      "baseRatePerYear": 0.01,
+      "multiplierPerYear": 0.12,
+      "jumpMultiplierPerYear": 1.5,
+      "kink": 0.45
     },
     {
-      "name": "WhitePaperInterestRateModel",
-      "address": "0x7E57C3947F85444C9E212cCeEcb74C450818eD48",
+      "name": "JumpRateModelV2",
+      "address": "0x87c86efFDFc4Ac0A0b16D445d128fb6282b7DCB7",
       "tokens": [
-        "BTC"
+        "wstMTRG"
       ],
-      "baseRatePerYear": 0.0475,
-      "multiplierPerYear": 0.45
+      "baseRatePerYear": 0,
+      "multiplierPerYear": 0.06,
+      "jumpMultiplierPerYear": 1.5,
+      "kink": 0.45
     },
     {
       "name": "ZeroInterestRateModel",
-      "address": "0xD675BB32eAF79bd9C3414E94EDC66EDD2F83E4B2",
+      "address": "0x8098a4Ad4Fc816E576BbBf12A9299Ef3ae8189c7",
       "tokens": [
         "suUSD",
         "suETH",
