@@ -8,7 +8,7 @@
     "fetchNFTImg": "node fetchNFTImage/index.js",
     "metertest": "node genMetertestCompConfig/index.js",
     "basetest": "node genBasetestCompConfig/index.js",
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "meter": "node genMeterCompConfig/index.js"
   },
   "keywords": [],
   "author": "",
