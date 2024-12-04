@@ -8,7 +8,8 @@
     "fetchNFTImg": "node fetchNFTImage/index.js",
     "metertest": "node genMetertestCompConfig/index.js",
     "basetest": "node genBasetestCompConfig/index.js",
-    "meter": "node genMeterCompConfig/index.js"
+    "meter": "node genMeterCompConfig/index.js",
+    "genRegtestAddr": "node genRegtestAddr/index.js"
   },
   "keywords": [],
   "author": "",
@@ -17,8 +18,12 @@
     "@parallel-mono/utils": "^0.0.10",
     "@paraspace-utilities/contract-helpers": "^0.0.118",
     "@paraspace-utilities/math-utils": "^0.0.12",
+    "bip32": "^5.0.0-rc.0",
+    "bip39": "^3.1.0",
+    "bitcoinjs-lib": "^7.0.0-rc.0",
     "ethers": "^5.7.2",
     "lodash": "^4.17.21",
-    "paraspace-configs": "^0.0.4"
+    "paraspace-configs": "^0.0.4",
+    "tiny-secp256k1": "^2.2.3"
   }
 }
