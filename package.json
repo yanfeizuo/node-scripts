@@ -10,12 +10,14 @@
     "basetest": "node genBasetestCompConfig/index.js",
     "meter": "node genMeterCompConfig/index.js",
     "genRegtestAddr": "node genRegtestAddr/index.js",
-    "genPell": "node pellStaking/index.js"
+    "genPell": "node pellStaking/index.js",
+    "layerzerov2": "node layerzerov2/index.js"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
   "dependencies": {
+    "@layerzerolabs/lz-v2-utilities": "^3.0.29",
     "bignumber.js": "^9.1.2",
     "bip32": "^5.0.0-rc.0",
     "bip39": "^3.1.0",
