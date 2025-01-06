@@ -1,4 +1,4 @@
-exports.LAYER_ZERO_V2_ABI = [
+export const LayerZeroV2ABI = [
   {
     inputs: [
       {
@@ -92,6 +92,33 @@ exports.LAYER_ZERO_V2_ABI = [
     inputs: [
       {
         internalType: "address",
+        name: "token",
+        type: "address",
+      },
+    ],
+    name: "NotSupportedToken",
+    type: "error",
+  },
+  {
+    inputs: [
+      {
+        internalType: "uint256",
+        name: "srcEid",
+        type: "uint256",
+      },
+      {
+        internalType: "bytes32",
+        name: "sender",
+        type: "bytes32",
+      },
+    ],
+    name: "NotTrustedSender",
+    type: "error",
+  },
+  {
+    inputs: [
+      {
+        internalType: "address",
         name: "addr",
         type: "address",
       },
@@ -161,6 +188,11 @@ exports.LAYER_ZERO_V2_ABI = [
       },
     ],
     name: "SafeERC20FailedOperation",
+    type: "error",
+  },
+  {
+    inputs: [],
+    name: "SendAmountMustGreaterThanZero",
     type: "error",
   },
   {
@@ -1695,51 +1727,14 @@ exports.LAYER_ZERO_V2_ABI = [
   {
     inputs: [
       {
-        components: [
-          {
-            internalType: "uint32",
-            name: "dstEid",
-            type: "uint32",
-          },
-          {
-            internalType: "bytes32",
-            name: "to",
-            type: "bytes32",
-          },
-          {
-            internalType: "address",
-            name: "token",
-            type: "address",
-          },
-          {
-            internalType: "uint256",
-            name: "amountLD",
-            type: "uint256",
-          },
-          {
-            internalType: "uint256",
-            name: "minAmountLD",
-            type: "uint256",
-          },
-          {
-            internalType: "bytes",
-            name: "extraOptions",
-            type: "bytes",
-          },
-          {
-            internalType: "bytes",
-            name: "composeMsg",
-            type: "bytes",
-          },
-          {
-            internalType: "bytes",
-            name: "oftCmd",
-            type: "bytes",
-          },
-        ],
-        internalType: "struct SendParam",
-        name: "sendParam",
-        type: "tuple",
+        internalType: "address",
+        name: "token",
+        type: "address",
+      },
+      {
+        internalType: "uint256",
+        name: "amountLD",
+        type: "uint256",
       },
     ],
     name: "shouldEnterTimelock",
@@ -1865,7 +1860,7 @@ exports.LAYER_ZERO_V2_ABI = [
   },
 ]
 
-exports.LAYER_ZERO_V2_TIMELOCK = [
+export const LayerZeroV2TimelockABI = [
   {
     inputs: [],
     stateMutability: "nonpayable",
@@ -1912,6 +1907,17 @@ exports.LAYER_ZERO_V2_TIMELOCK = [
       },
     ],
     name: "AgreementNotFrozen",
+    type: "error",
+  },
+  {
+    inputs: [
+      {
+        internalType: "bytes32",
+        name: "agreementId",
+        type: "bytes32",
+      },
+    ],
+    name: "AgreementNotMature",
     type: "error",
   },
   {
@@ -2451,6 +2457,45 @@ exports.LAYER_ZERO_V2_TIMELOCK = [
         internalType: "bytes32",
         name: "",
         type: "bytes32",
+      },
+    ],
+    stateMutability: "view",
+    type: "function",
+  },
+  {
+    inputs: [
+      {
+        internalType: "address",
+        name: "",
+        type: "address",
+      },
+      {
+        internalType: "uint256",
+        name: "",
+        type: "uint256",
+      },
+    ],
+    name: "agreements",
+    outputs: [
+      {
+        internalType: "bool",
+        name: "isFrozen",
+        type: "bool",
+      },
+      {
+        internalType: "address",
+        name: "asset",
+        type: "address",
+      },
+      {
+        internalType: "uint48",
+        name: "timestamp",
+        type: "uint48",
+      },
+      {
+        internalType: "uint256",
+        name: "amount",
+        type: "uint256",
       },
     ],
     stateMutability: "view",
@@ -3103,36 +3148,38 @@ exports.LAYER_ZERO_V2_TIMELOCK = [
     inputs: [
       {
         internalType: "address",
-        name: "",
+        name: "account",
         type: "address",
-      },
-      {
-        internalType: "uint256",
-        name: "",
-        type: "uint256",
       },
     ],
     name: "userAgreements",
     outputs: [
       {
-        internalType: "bool",
-        name: "isFrozen",
-        type: "bool",
-      },
-      {
-        internalType: "address",
-        name: "asset",
-        type: "address",
-      },
-      {
-        internalType: "uint48",
-        name: "timestamp",
-        type: "uint48",
-      },
-      {
-        internalType: "uint256",
-        name: "amount",
-        type: "uint256",
+        components: [
+          {
+            internalType: "bool",
+            name: "isFrozen",
+            type: "bool",
+          },
+          {
+            internalType: "address",
+            name: "asset",
+            type: "address",
+          },
+          {
+            internalType: "uint48",
+            name: "timestamp",
+            type: "uint48",
+          },
+          {
+            internalType: "uint256",
+            name: "amount",
+            type: "uint256",
+          },
+        ],
+        internalType: "struct IRoledTimelock.Agreement[]",
+        name: "",
+        type: "tuple[]",
       },
     ],
     stateMutability: "view",

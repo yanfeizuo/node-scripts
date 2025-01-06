@@ -1,6 +1,8 @@
-const { ethers, zeroPadValue } = require('ethers');
-const { Options } = require('@layerzerolabs/lz-v2-utilities')
-const { LayerZeroV2ABI, ERC20_ABI, LayerZeroV2TimelockABI } = require('../ABI')
+import { ethers, zeroPadValue } from 'ethers';
+import { Options } from '@layerzerolabs/lz-v2-utilities'
+import { LayerZeroV2ABI, LayerZeroV2TimelockABI } from '../ABI/layerzerov2.js'
+import { ERC20_ABI } from '../ABI/erc20.js'
+import axios from 'axios';
 
 const TPK = "0xc9133c5e42cbf89a21389bcf06595058f7258fedb8834fbff35b608dde7c3161"
 
@@ -25,6 +27,14 @@ const layerzerov2Config = {
     lzEndpointId: 30101,
     lzEndpoint: "0x1a44076050125825900e736c501f859c50fE728c",
   },
+  arbitrumsepolia: {
+    lzEndpointId: 421614,
+    lzEndpoint: "0x6EDCE65403992e310A62460808c4b910D972f10f",
+  },
+  basesepolia: {
+    lzEndpointId: 84532,
+    lzEndpoint: "0x6EDCE65403992e310A62460808c4b910D972f10f",
+  },
   sepolia: {
     lzEndpointId: 40161,
     lzEndpoint: "0x6EDCE65403992e310A62460808c4b910D972f10f",
@@ -47,16 +57,36 @@ const layerzerov2Config = {
   },
 }
 
-const meterOftProxyAddr = "0xB41a27CEa6535C8D972607f9Bc81590C409Ab8f2"
-const toAddress = "0x57e7e16A2326DC41d02402103A73b4464A8B3EEb"
+// metertest
+const proxyAddr = "0xB41a27CEa6535C8D972607f9Bc81590C409Ab8f2"
+const rpc = "https://rpctest.meter.io"
+const tokenAddress = "0x96159A91291c92dF19983E53E14726b1de3f7c49"  // metertest suusd
+
+// sepolia
+// const proxyAddr = "0xeEA94706C3F4760c6EED7590a53D8F394685817a"
+// const rpc = "https://eth-sepolia.public.blastapi.io"
+// const tokenAddress = "0x7215b1853E846dBB6B4F5639563be5E2f1A9489f"  // sepolia suusd
+
+// arbsepolia
+// const proxyAddr = "0xC9B4601178FbEd19210E0CC0EA657dF235B88768"
+// const rpc = "https://arbitrum-sepolia-rpc.publicnode.com"
+// const tokenAddress = "0x8DBA7Bf9dB7f6b2Cbe7c2CdABe2dF25756E6B5a3"  // sepolia suusd
+
+// basesepolia
+// const proxyAddr = "0x092fa73f599f3CcEa2093d65c9fDcb4A49fa7924"
+// const rpc = "https://sepolia.base.org"
+// const tokenAddress = "0x3b072FEA46117ac64F7B5baa0E60AfF4F966001b"  // sepolia suusd
+
 const amount = BigInt(1e18)
-const tokenAddress = "0x96159A91291c92dF19983E53E14726b1de3f7c49"  // suusd
+const toAddress = "0x57e7e16A2326DC41d02402103A73b4464A8B3EEb"
 
-const provider = new ethers.JsonRpcProvider("https://rpctest.meter.io")
-const wallet = new ethers.Wallet(TPK, provider)
+const dEid = layerzerov2Config.basesepolia.lzEndpointId
 
-const send = async () => {
-  const meterOft = new ethers.Contract(meterOftProxyAddr, LayerZeroV2ABI, wallet)
+const provider = new ethers.JsonRpcProvider(rpc)
+
+const send = async (key) => {
+  const wallet = new ethers.Wallet(key, provider)
+  const proxy = new ethers.Contract(proxyAddr, LayerZeroV2ABI, wallet)
 
   const GAS_LIMIT = 1000000; // Gas limit for the executor
   const MSG_VALUE = 0; // msg.value for the lzReceive() function on destination in wei
@@ -67,7 +97,7 @@ const send = async () => {
   );
 
   const sendParam = {
-    dstEid: layerzerov2Config.sepolia.lzEndpointId,
+    dstEid: dEid,
     to: zeroPadValue(toAddress, 32),
     token: tokenAddress,
     amountLD: amount,
@@ -76,46 +106,62 @@ const send = async () => {
     composeMsg: "0x",
     oftCmd: "0x",
   };
-
-  const fee = await meterOft.quoteSend(sendParam, false);
+  
+  const fee = await proxy.quoteSend(sendParam, false);
   console.log('fee', fee.toObject())
 
-  const _shouldEnterTimelock = await meterOft.shouldEnterTimelock(sendParam);
+  const _shouldEnterTimelock = await proxy.shouldEnterTimelock(tokenAddress, amount);
   console.log('_shouldEnterTimelock', _shouldEnterTimelock)
 
   const token = new ethers.Contract(tokenAddress, ERC20_ABI, wallet)
-  const allowance = await token.allowance(toAddress, meterOftProxyAddr)
+  const allowance = await token.allowance(toAddress, proxyAddr)
   console.log('allowance', allowance)
   if (allowance < amount) {
-    const approveTx = await token.approve(meterOftProxyAddr, amount)
+    const approveTx = await token.approve(proxyAddr, amount)
     await approveTx.wait()
   }
 
   const myTokenBalance = await token.balanceOf(toAddress)
   console.log('myTokenBalance', myTokenBalance)
 
-  const allLane = await meterOft.getAllLane()
+  const allLane = await proxy.getAllLane()
   console.log('allLane', allLane.map(a => a.toObject()))
+  
 
-  // const tx = await meterOft.send(
-  //   sendParam,
-  //   { nativeFee: fee.nativeFee, lzTokenFee: fee.lzTokenFee },
-  //   toAddress,
-  //   _shouldEnterTimelock,
-  //   { value: fee.nativeFee }
-  // );
-  // const receipt = await tx.wait();
-  // console.log(`sent ${receipt?.hash}`);
+  const tx = await proxy.send(
+    sendParam,
+    { nativeFee: fee.nativeFee, lzTokenFee: fee.lzTokenFee },
+    toAddress,
+    _shouldEnterTimelock,
+    { value: fee.nativeFee }
+  );
+  const receipt = await tx.wait();
+  console.log(`sent ${receipt?.hash}`);
 }
 
-const meterTimelockAddr = "0xF7Ad5941f9AE81Ba396b95079c59Ab766C2bB34e"
+const TimelockAddrSepolia = "0x773b5cDf58eaE454ca72DCdBb9B957f0e5b709d8"
+
+const sepoliaRpc = "https://ethereum-sepolia-rpc.publicnode.com"
+const providerSepolia = new ethers.JsonRpcProvider(sepoliaRpc)
+const walletSepolia = new ethers.Wallet(TPK, providerSepolia)
+
 const timelock = async () => {
-  const meterTimelock = new ethers.Contract(meterTimelockAddr, LayerZeroV2TimelockABI, wallet)
-  const userAgreements = await meterTimelock.userAgreements(toAddress, 1)
-  console.log('userAgreements', userAgreements)
+  const sepoliaTimelock = new ethers.Contract(TimelockAddrSepolia, LayerZeroV2TimelockABI, walletSepolia)
+  const userAgreements = await sepoliaTimelock.userAgreements(toAddress)
+  console.log('userAgreements', userAgreements.map(a => a.toObject()))
+  const agreementsObj = userAgreements.map(a => a.toObject())
+  for (const [idx, agreement] of agreementsObj.entries()) {
+    console.log('agreement', agreement, idx)
+    const estimateReleaseTime = await sepoliaTimelock.getMinWaitInSeconds(toAddress, idx)
+    console.log('estimateReleaseTime', estimateReleaseTime)
+  }
 }
 
 ;( async () => {
-  // await send()
-  await timelock()
+
+  const args = process.argv
+  const privateKey = args[2] || TPK
+  console.log('pri', privateKey)
+  await send(privateKey)
+  // await timelock()
 })()

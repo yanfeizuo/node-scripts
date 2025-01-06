@@ -1,4 +1,4 @@
-exports.VaultTemplateABI = [
+export const VaultTemplateABI = [
   "event Locked(address delegate, address token, uint256 amount)",
   "event RageQuit(address delegate, address token, bool notified, string reason)",
   "event Unlocked(address delegate, address token, uint256 amount)",

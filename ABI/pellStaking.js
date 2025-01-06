@@ -1,4 +1,4 @@
-exports.Pell_Staking_ABI = [
+export const PellStakingABI = [
   {
     "inputs": [
       {
