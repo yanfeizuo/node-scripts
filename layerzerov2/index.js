@@ -1,104 +1,22 @@
 import { ethers, zeroPadValue } from 'ethers';
 import { Options } from '@layerzerolabs/lz-v2-utilities'
-import { LayerZeroV2ABI, LayerZeroV2TimelockABI } from '../ABI/layerzerov2.js'
+import { LayerZeroV2ABI } from '../ABI/layerzerov2.js'
 import { ERC20_ABI } from '../ABI/erc20.js'
-import axios from 'axios';
+import { NetConfig } from "./config.js";
+import BigNumber from 'bignumber.js';
 
-const TPK = "0xc9133c5e42cbf89a21389bcf06595058f7258fedb8834fbff35b608dde7c3161"
-
-const layerzerov2Config = {
-  arbitrum: {
-    lzEndpointId: 30110,
-    lzEndpoint: "0x1a44076050125825900e736c501f859c50fE728c",
-  },
-  basemain: {
-    lzEndpointId: 30184,
-    lzEndpoint: "0x1a44076050125825900e736c501f859c50fE728c",
-  },
-  metermain: {
-    lzEndpointId: 30176,
-    lzEndpoint: "0xef02BacD67C0AB45510927749009F6B9ffCE0631",
-  },
-  metertest: {
-    lzEndpointId: 40156,
-    lzEndpoint: "0x3E03163f253ec436d4562e5eFd038cf98827B7eC",
-  },
-  ethereum: {
-    lzEndpointId: 30101,
-    lzEndpoint: "0x1a44076050125825900e736c501f859c50fE728c",
-  },
-  arbitrumsepolia: {
-    lzEndpointId: 40231,
-    lzEndpoint: "0x6EDCE65403992e310A62460808c4b910D972f10f",
-  },
-  basesepolia: {
-    lzEndpointId: 40245,
-    lzEndpoint: "0x6EDCE65403992e310A62460808c4b910D972f10f",
-  },
-  sepolia: {
-    lzEndpointId: 40161,
-    lzEndpoint: "0x6EDCE65403992e310A62460808c4b910D972f10f",
-  },
-  holesky: {
-    lzEndpointId: 40217,
-    lzEndpoint: "0x6EDCE65403992e310A62460808c4b910D972f10f",
-  },
-  berabartio: {
-    lzEndpointId: 40291,
-    lzEndpoint: "0x6EDCE65403992e310A62460808c4b910D972f10f",
-  },
-  merlin: {
-    lzEndpointId: 30266,
-    lzEndpoint: "0x1a44076050125825900e736c501f859c50fE728c",
-  },
-  core: {
-    lzEndpointId: 30153,
-    lzEndpoint: "0x1a44076050125825900e736c501f859c50fE728c",
-  },
-  zksyncsepolia: {
-    lzEndpointId: 40305,
-    lzEndpoint: "0xe2Ef622A13e71D9Dd2BBd12cd4b27e1516FA8a09",
-  },
-  zklinksepolia: {
-    lzEndpointId: 40283,
-    lzEndpoint: "0xf3e37ca248ff739b8d0bebcceae1eeb199223dba",
-  },
-}
-
-// metertest
-// const proxyAddr = "0xB41a27CEa6535C8D972607f9Bc81590C409Ab8f2"
-// const rpc = "https://rpctest.meter.io"
-// const tokenAddress = "0x96159A91291c92dF19983E53E14726b1de3f7c49"  // metertest suusd
-
-// sepolia
-const proxyAddr = "0xeEA94706C3F4760c6EED7590a53D8F394685817a"
-const rpc = "https://eth-sepolia.public.blastapi.io"
-const tokenAddress = "0x7215b1853E846dBB6B4F5639563be5E2f1A9489f"  // sepolia suusd
-
-// arbsepolia
-// const proxyAddr = "0xC9B4601178FbEd19210E0CC0EA657dF235B88768"
-// const rpc = "https://arbitrum-sepolia-rpc.publicnode.com"
-// const tokenAddress = "0x8DBA7Bf9dB7f6b2Cbe7c2CdABe2dF25756E6B5a3"  // arbsepolia suusd
-
-// basesepolia
-// const proxyAddr = "0x092fa73f599f3CcEa2093d65c9fDcb4A49fa7924"
-// const rpc = "https://sepolia.base.org"
-// const tokenAddress = "0x3b072FEA46117ac64F7B5baa0E60AfF4F966001b"  // basesepolia suusd
-
-// zksyncsepolia
-// const proxyAddr = "0xE556e5C72a1338cbe6b3906eb94172bA43c7e120"
-// const rpc = "https://sepolia.era.zksync.dev"
-// const tokenAddress = ""
-
-const amount = BigInt(5e18)
-// const toAddress = "0x57e7e16A2326DC41d02402103A73b4464A8B3EEb"
-// const toAddress = "0x20255b38ece64adff5184a29e5a9a680b88a58c6"
-
-const dEid = layerzerov2Config.arbitrumsepolia.lzEndpointId
-
-const provider = new ethers.JsonRpcProvider(rpc)
-
-const send = async (key) => {
+const send = async (key, from, to, tokenSym, amount) => {
+  const fromNetwork = NetConfig.find(n => n.name === from);
+  const toNetwork = NetConfig.find(n => n.name === to);
+  if (!fromNetwork) return console.log('unsupport fromNetwork');
+  if (!toNetwork) return console.log('unsupport toNetwork');
+  const { proxyAddr, rpc, tokens } = fromNetwork;
+  const { lzEndpointId } = toNetwork
+  const decimalsAmount = new BigNumber(`${amount}e18`).toFixed()
+  console.log('decimalsAmount', decimalsAmount)
+  const tokenAddress = tokens[tokenSym]
+  if (!tokenAddress) return console.log('Cannot find token ', tokenSym)
+  const provider = new ethers.JsonRpcProvider(rpc)
   const wallet = new ethers.Wallet(key, provider)
   const toAddr = await wallet.getAddress()
   console.log('toAddr', toAddr)
@@ -113,35 +31,35 @@ const send = async (key) => {
   );
 
   const sendParam = {
-    dstEid: dEid,
+    dstEid: lzEndpointId,
     to: zeroPadValue(toAddr, 32),
     token: tokenAddress,
-    amountLD: amount,
-    minAmountLD: amount,
+    amountLD: decimalsAmount,
+    minAmountLD: decimalsAmount,
     extraOptions: _options.toHex(),
     composeMsg: "0x",
     oftCmd: "0x",
   };
+
+  const allLane = await proxy.getAllLane()
+  console.log('allLane', allLane.map(a => a.toObject()))
   
   const fee = await proxy.quoteSend(sendParam, false);
   console.log('fee', fee.toObject())
 
-  const _shouldEnterTimelock = await proxy.shouldEnterTimelock(tokenAddress, amount);
+  const _shouldEnterTimelock = await proxy.shouldEnterTimelock(tokenAddress, decimalsAmount);
   console.log('_shouldEnterTimelock', _shouldEnterTimelock)
 
   const token = new ethers.Contract(tokenAddress, ERC20_ABI, wallet)
   const allowance = await token.allowance(toAddr, proxyAddr)
   console.log('allowance', allowance)
-  if (allowance < amount) {
-    const approveTx = await token.approve(proxyAddr, amount)
+  if (allowance < decimalsAmount) {
+    const approveTx = await token.approve(proxyAddr, decimalsAmount + 0)
     await approveTx.wait()
   }
 
   const myTokenBalance = await token.balanceOf(toAddr)
   console.log('myTokenBalance', myTokenBalance)
-
-  // const allLane = await proxy.getAllLane()
-  // console.log('allLane', allLane.map(a => a.toObject()))
   
 
   const tx = await proxy.send(
@@ -158,7 +76,13 @@ const send = async (key) => {
 ;( async () => {
 
   const args = process.argv
-  const privateKey = args[2] || TPK
-  console.log('pri', privateKey)
-  await send(privateKey)
+  if (args.length < 7) {
+    return console.log('Need args: <key> <fromNet> <toNet> <tokenSym> <amount>')
+  }
+  const privateKey = args[2]
+  const fromNet = args[3]
+  const toNet = args[4]
+  const tokenSym = args[5]
+  const amount = args[6]
+  await send(privateKey, fromNet, toNet, tokenSym, amount)
 })()
